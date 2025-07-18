@@ -1,0 +1,317 @@
+Paper no,Paper name,Category of LLM,Year,LLM architecture
+1,"
+Using Large Language Models for Natural Language Processing Tasks in Requirements Engineering: A Systematic Guideline
+Andreas Vogelsang +1
+arXiv.org
+2402.13823v3.pdf
+2024 ·
+3 citations","1. Encoder-only LLMs (e.g. BERT)
+2. Decoder-only LLMs (e.g. GPT)
+3. Encoder-decoder LLMs (e.g. T5)",2024,Encoder-Decoder
+2,"The Application of LLMs in the Analysis and Modeling of Software Requirements
+Zhipeng Wang, Changxi Feng, Longfei Liu, Guotao Jiao, Peng Ye
+IEEE International Conference on Software Quality, Reliability and Security Companion
+The_Application_of_LLMs_in_the_Analysis_and_Modeling_of_Software_Requirements.pdf
+2024
+0 citations","Based on the information provided in the paper, the category of LLM used in this research appears to be transformer-based language models such as BERT, GPT, and ChatGPT. The paper does not explicitly state the specific LLM used, but it mentions the use of BERT, GPT, and the dot-product attention mechanism, which are common techniques employed in transformer-based language models.",2024,Encoder-Decoder
+3,"Investigating ChatGPT's Potential to Assist in Requirements Elicitation Processes
+Krishna Ronanki, Christian Berger, Jennifer Horkoff
+Investigating_ChatGPTs_Potential_to_Assist_in_Requirements_Elicitation_Processes.pdf
+Citations unknown","The category of LLM used in this study is the GPT-3.5 model, which is the foundation for the ChatGPT model.",2023,Decoder-only
+4,"Leveraging Graph-RAG and Prompt Engineering to Enhance LLM-Based Automated Requirement Traceability and Compliance Checks
+Arsalan Masoudifard, Mohammad Mowlavi, Moein Madadi, Mohammad Sabokrou, Elahe Habibi
+2412.08593v1.pdf
+2024
+0 citations",The category of LLM used in this paper is Transformer-based LLMs.,2024,Encoder-Decoder
+5,"Interlinking User Stories and GUI Prototyping: A Semi-Automatic LLM-based Approach
+Kristian Kolthoff, Felix Kretzer, Christian Bartelt, Alexander Maedche, Simone Paolo Ponzetto
+IEEE International Requirements Engineering Conference
+Interlinking_User_Stories_and_GUI_Prototyping_A_Semi-Automatic_LLM-Based_Approach.pdf
+2024
+2 citations","The category of LLM used in this paper is the GPT-4 model, which is a state-of-the-art large language model.",2024,Decoder-only
+6,"Generating Requirements Elicitation Interview Scripts with Large Language Models
+Binnur Görer, Fatma Bas, ¸ak Aydemir
+2023 IEEE 31st International Requirements Engineering Conference Workshops (REW)
+Generating_Requirements_Elicitation_Interview_Scripts_with_Large_Language_Models.pdf
+2023
+10 citations","state-of-the-art, large-scale transformer-based models, specifically GPT-4 and Google's PaLM-2.",2023,Encoder-Decoder
+7,"Prioritizing Software Requirements Using Large Language Models
+Malik Abdul Sami, Zeeshan Rasheed, Muhammad Waseem, Zheying Zhang, Tomas Herda, Pekka Abrahamsson
+arXiv.org
+2405.01564v1.pdf
+2024
+4 citations",The category of LLM used in this research is the GPT (Generative Pre-trained Transformer) series of language models.,2024,Encoder-Decoder
+8,"Which AI Technique Is Better to Classify Requirements? An Experiment with SVM, LSTM, and ChatGPT
+Abdelkarim El-Hajjami, Nicolas Fa, Camille Salinesi, D Mendez, A Moreira, J Horko, T Weyer, M Daneva, M Unterkalmsteiner, S Bühne, J Hehn, B Penzenstadler, N Condori- Fernández, O Dieste, R Guizzardi, K M Habibullah, A Perini, A Susi, S Abualhaija, C Arora, D Dell', A Ferrari, S Ghanavati, F Dalpiaz, J Steghöfer, A Rachmann, J Gulden, A Müller, M Beck, D Birkmeier, A Herrmann, P Mennig, K Schneider
+REFSQ Workshops
+2311.11547v2.pdf
+2023
+1 citation","The category of LLM used in this paper is ChatGPT, specifically the gpt-3.5-turbo and gpt-4 models developed by OpenAI.",2023,Decoder-only
+9,"Extracting Domain Models from Textual Requirements in the Era of Large Language Models
+Sathurshan Arulmohan, Marie-Jean Meurs, Sébastien Mosser
+2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)
+Extracting_Domain_Models_from_Textual_Requirements_in_the_Era_of_Large_Language_Models.pdf
+2023
+10 citations","The category of LLM used in this paper is autoregressive language models, specifically GPT-3.5 and ChatGPT developed by OpenAI.",2023,Decoder-only
+10,"GPT-Powered Elicitation Interview Script Generator for Requirements Engineering Training
+Binnur Görer, Fatma Bas, ¸ak Aydemir
+IEEE International Requirements Engineering Conference
+GPT-Powered_Elicitation_Interview_Script_Generator_for_Requirements_Engineering_Training.pdf
+2024
+0 citations",The category of LLM used is GPT-4,2024,Decoder-only
+11,"Zero-shot Learning for Named Entity Recognition in Software Specification Documents
+Souvick Das, Novarun Deb, Agostino Cortesi, Nabendu Chaki
+IEEE International Requirements Engineering Conference
+Zero-shot_Learning_for_Named_Entity_Recognition_in_Software_Specification_Documents.pdf
+2023
+2 citations","The category of LLM used in this research includes large transformer-based language models such as GPT-3, T5, BERT, RoBERTa, and BART.",2023,Encoder-Decoder
+12,"Using LLMs in Software Requirements Specifications: An Empirical Evaluation
+Madhava Krishna, Bhagesh Gaur, Arsh Verma, Pankaj Jalote
+IEEE International Requirements Engineering Conference
+Using_LLMs_in_Software_Requirements_Specifications_An_Empirical_Evaluation.pdf
+2024
+2 citations",The category of LLMs used in this study are GPT-4 (also known as ChatGPT) and CodeLlama-34b.,2024,Decoder-only
+13,"Requirements-driven Slicing of Simulink Models Using LLMs
+Dipeeka Luitel, Shiva Nejati, Mehrdad Sabetzadeh
+2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)
+Requirements-Driven_Slicing_of_Simulink_Models_using_LLMs.pdf
+2024
+2 citations","The category of LLM used in Dipeeka Luitel, Shiva Nejati, Mehrdad Sabetzadeh (2024) is a generative LLM, specifically ChatGPT over GPT-4.0classic.",2024,Decoder-only
+14,"Improving requirements completeness: automated assistance through large language models
+Dipeeka Luitel, Shabnam Hassani, Mehrdad Sabetzadeh
+Requirements Engineering
+s00766-024-00416-3.pdf
+2023
+16 citations",The category of LLM used in this research is BERT (Bidirectional Encoder Representations from Transformers).,2023,Encoder-Decoder
+15,"Advancing Requirements Engineering Through Generative AI: Assessing the Role of LLMs
+Chetan Arora, John Grundy, Mohamed Abdelrazek
+arXiv.org
+978-3-031-55642-5_6.pdf
+2023
+41 citations","Based on the information provided in the paper, the category of LLM used is a large, pre-trained language model like GPT-3 or BERT, specifically the GPT-3.5 model used in the ChatGPT system.",2023,Decoder-only
+16,"Requirements Modeling Aided by ChatGPT: An Experience in Embedded Systems
+Kun Ruan, Xiaohong Chen, Zhi Jin
+2023 IEEE 31st International Requirements Engineering Conference Workshops (REW)
+Requirements_Modeling_Aided_by_ChatGPT_An_Experience_in_Embedded_Systems.pdf
+2023
+4 citations", ChatGPT.,2023,Decoder-only
+17,"Empirical Evaluation of ChatGPT on Requirements Information Retrieval Under Zero-Shot Setting
+Jianzhang Zhang, Yiyang Chen, Nan Niu, Yinglin Wang, | Chuang Liu
+2023 International Conference on Intelligent Computing and Next Generation Networks（ICNGN)
+2304.12562v2.pdf
+2023
+16 citations","The category of LLM used in this paper is ChatGPT, which is described as the ""most representative generative LLM"".",2023,Decoder-only
+18,"An Automated Model of Software Requirement Engineering Using GPT-3.5
+Jie Sh'ng Yeow, Muhammad Ehsan Rana, Amira Abdul Majid
+2024 ASU International Conference in Emerging Technologies for Sustainability and Intelligent Systems (ICETSIS)
+An_Automated_Model_of_Software_Requirement_Engineering_Using_GPT-3.5.pdf
+2024
+1 citation","The ""category of LLM"" used in this research is GPT-3.5, which is a Generative Pre-Trained Transformer (GPT) model developed by OpenAI.",2024,Encoder-Decoder
+19,"Exploring Requirements Elicitation from App Store User Reviews Using Large Language Models
+Tanmai Kumar Ghosh, Atharva Pargaonkar, Nasir U Eisty
+arXiv.org
+2409.15473v1.pdf
+2024
+0 citations","The category of LLMs used in Tanmai Kumar Ghosh, Atharva Pargaonkar, Nasir U Eisty (2024) are BERT, DistilBERT, and GEMMA. These are well-established large language models that the researchers fine-tuned on a dataset of app reviews labeled for usefulness in order to automate the identification of valuable user feedback for app developers.",2024,Encoder-only
+20,"Large Language Models for Software Engineering: A Systematic Literature Review
+Xinyi Hou, Yanjie Zhao, Yue Liu, Zhou Yang, Kailong Wang, Xiapu Luo, David Lo, John Grundy, Haoyu Wang, Li Li
+ACM Transactions on Software Engineering and Methodology
+published version of blueprint paper.pdf
+2023
+215 citations","The paper categorizes LLMs into three main architectures: encoder-only, encoder-decoder, and decoder-only LLMs.",2023,Encoder-Decoder
+21,"SimAC: simulating agile collaboration to generate acceptance criteria in user story elaboration
+Yishu Li, Jacky Keung, Zhen Yang, Xiaoxue Ma, Jingyu Zhang, Shuo Liu
+International Conference on Automated Software Engineering
+s10515-024-00448-7.pdf
+2024
+2 citations","The category of LLMs used in this paper are primarily decoder-only models, specifically the GPT (Generative Pre-trained Transformer) families and LLaMA series. These LLMs have shown superior zero-shot and few-shot generalization capabilities compared to other architectures, and have been trained on large corpora of text and code data.",2024,Encoder-Decoder
+22,"Generative Language Models Potential for Requirement Engineering Applications: Insights into Current Strengths and Limitations
+Summra Saleem, Muhammad Nabeel Asim, Ludger Van Elst, Andreas Dengel
+arXiv.org
+2412.00959v1.pdf
+2024
+0 citations","The category of LLMs explored in this study are the latest generative language models, specifically ChatGPT and Gemini.",2024,Decoder-only
+23,"ARCHCODE: Incorporating Software Requirements in Code Generation with Large Language Models
+Hojae Han, et.al
+Annual Meeting of the Association for Computational Linguistics
+2408.00994v1.pdf
+2024
+0 citations","Authors  integrate ARCHCODE with Wizard-Coder (Luo et al., 2023) and GPT-3.5-Turbo (Ope-nAI, 2022) , and assess the performance on HumanEval (Chen et al., 2021) and Code-Contests (Li et al., 2022). ",2024,Decoder-only
+24,"Rethinking Legal Compliance Automation: Opportunities with Large Language Models
+Shabnam Hassani, Mehrdad Sabetzadeh, Daniel Amyot, Jain Liao
+IEEE International Requirements Engineering Conference
+Rethinking_Legal_Compliance_Automation_Opportunities_with_Large_Language_Models.pdf
+2024
+3 citations","The category of LLMs used in the paper include both generative models like GPT and discriminative models like BERT. Specifically, the paper experimented with Phi-2, Mistral-7B, Mistral-7B-Instruct, Zephyr-7B, Mixtral-8x7B-Instruct-v0.1 from Hugging Face, as well as GPT-3.5-turbo-0125 and GPT-4-0125-preview from OpenAI. BERT-base-cased was used as a baseline for comparison.",2024,Decoder-only
+25,"Agile Methodology for the Standardization of Engineering Requirements Using Large Language Models
+Archana Tikaya Ra, Bjorn F Cole, Olivia J Pinon Fischer, Anirudh Prabhakara Bhat, Ryan T White, Dimitri N Mavris
+Syst.
+systems-11-00352.pdf
+2023
+13 citations",The category of LLMs used in this research are fine-tuned versions of BERT (aeroBERT-NER and aeroBERT-Classifier) as well as an off-the-shelf sentence chunking model (flair/chunk-english).,2023,Encoder-only
+26,"MUCE: a multilingual use case model extractor using GPT-3
+Deepali Bajaj, Anita Goel, S C Gupta, Hunar Batra
+International journal of information technology
+s41870-022-00884-2.pdf
+2022
+12 citations","The category of LLM used in this paper is GPT-3, a large pre-trained transformer-based language model developed by OpenAI.",2022,Encoder-Decoder
+27,"PRCBERT: Prompt Learning for Requirement Classification using BERT-based Pretrained Language Models
+Xianchang Luo, Yinxing Xue, Zhenchang Xing
+International Conference on Automated Software Engineering
+3551349.3560417.pdf
+2022
+36 citations",The category of LLM used in this research is BERT-based pretrained language models.,2022,Encoder-only
+28,"Toward Regulatory Compliance: A few-shot Learning Approach to Extract Processing Activities
+Rambod Ghandiparsi, Rocky Slavin, Sepideh Ghanavati, Travis Breaux, Mitra Bokaei Hosseini
+2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)
+Toward_Regulatory_Compliance_A_few-shot_Learning_Approach_to_Extract_Processing_Activities.pdf
+2024
+0 citations",The category of LLM used in this research is GPT-3.5 Turbo.,2024,Decoder-only
+29,"Model Generation with LLMs: From Requirements to UML Sequence Diagrams
+Alessio Ferrari, Sallam Abualhaija, Chetan Arora
+2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)
+Model_Generation_with_LLMs_From_Requirements_to_UML_Sequence_Diagrams.pdf
+2024
+1 citation","The paper does not discuss the category of LLM used, but rather focuses on evaluating the capability of a specific LLM, ChatGPT, which is based on the GPT-3.5 architecture.",2024,Decoder-only
+30,"Can AI Help with the Formalization of Railway Cybersecurity Requirements?
+Maurice H Ter Beek, Alessandro Fantechi, Stefania Gnesi, Gabriele Lenzini, Marinella Petrocchi
+Leveraging Applications of Formal Methods
+Colloquium_Rocco_De_Nicola_2024.pdf
+2024
+0 citations","The category of LLM used in this paper is Large Language Models (LLMs), specifically ChatGPT (a free version) and Microsoft 365 Copilot (a licensed version powered by GPT-4).",2024,Decoder-only
+31,"Towards the LLM-Based Generation of Formal
+Specifications from Natural-Language Contracts:
+Early Experiments with S YMBOLEO",It specifically investigates the use of LLMs like GPT-4o and others for this task.,2024,Decoder-only
+32,"Chapter 11: Legal Requirements Analysis: A
+Regulatory Compliance Perspective",The contexts do not provide specific information regarding the category of LLM (Large Language Model).,2023,Encoder-only
+33,"Using LLMs for Use Case Modelling of IoT Systems:
+An Experience Report",The LLMs discussed in the paper include OpenAI's GPT-4 and Google's Gemini.,2024,Decoder-only
+34,"The Current Challenges of Software Engineering in the Era of
+Large Language Models",The category of LLMs discussed in the research paper primarily pertains to their application in software engineering (LLM4SE).,2024,Encoder-only
+35,"A novel automated framework for fine-grained sentiment analysis of application reviews using deep neural networks
+Haochen Zou, Yongli Wang
+International Conference on Automated Software Engineering
+·
+2024
+·
+3 citations","Transformer-based large language models like BERT and GPT
+Bigger large language models like GPT family, LLaMA family, and Vicuna family models",2024,Encoder-Decoder
+36,"PassionNet: An Innovative Framework for Duplicate and Conflicting Requirements Identification
+Summra Saleem, Muhammad Nabeel Asim, Andreas Dengel
+arXiv.org
+·
+2024
+·
+0 citations","Large Language Models (LLMs) including ALBERT, BERT, DeBERTa, Electra, GPT, Longformer, RoBERTa, and XLNet.",2024,Decoder-only
+37,"Refactoring goal-oriented models: a linguistic improvement using large language models
+Nouf Alturayeif, Jameleddine Hassine, B Jameleddine Hassine
+Journal of Software and Systems Modeling
+·
+2025
+·
+0 citations","The category of LLM used in this research is GPT, a large language model developed by OpenAI.",2025,Decoder-only
+38,"An empirical study on LLM-based classification of requirements-related provisions in food-safety regulations
+Shabnam Hassani, Mehrdad Sabetzadeh, Daniel Amyot, Walid Maalej, B Mehrdad Sabetzadeh
+Empirical Software Engineering
+·
+2025
+·
+1 citation",The category of LLMs used in this paper are BERT and GPT.,2025,Decoder-only
+39,"A Multi-solution Study on GDPR AI-enabled Completeness Checking of DPAs
+Muhammad Ilyas Azeem, Sallam Abualhaija, Daniel Méndez
+Empirical Software Engineering
+·
+2023
+·
+5 citations","The category of LLMs used in this paper are BERT, ALBERT, Legal-BERT, and RoBERTa.",2023,Encoder-only
+40,"Automated requirement contradiction detection through formal logic and LLMs
+Alexander Elenga Gärtner, Dietmar Göhlich
+International Conference on Automated Software Engineering
+·
+2024
+·
+2 citations","The category of LLM used in this research is GPT-3, a large language model developed by OpenAI.",2024,Decoder-only
+41,"LePB-SA4RE: A Lexicon-Enhanced and Prompt-Tuning BERT Model for Evolving Requirements Elicitation from App Reviews
+Luis Javier, Garcia Villalba, Zhiquan An, Hongyan Wan, Teng Xiong, Bangchao Wang
+Applied Sciences
+·
+2025
+·
+0 citations",Not mentioned (the paper does not mention the category of llms used for requirements engineering tasks),2025,Encoder-only
+42,"NL2CTL: Automatic Generation of Formal Requirements Specifications via Large Language Models
+Mengyan Zhao, Ran Tao, Yanhong Huang, Jianqi Shi, Shengchao Qin, Yang Yang
+IEEE International Conference on Formal Engineering Methods
+·
+2024
+·
+0 citations","Based on the quotes, the category of LLM used in this paper is the T5-Large model, which is a sequence-to-sequence Transformer-based LLM. The paper also compares the T5-Large model to the larger and more capable GPT-3.5 model.",2024,Encoder-Decoder
+43,"Establishing Traceability Between Natural Language Requirements and Software Artifacts by Combining RAG and LLMs
+Syed Juned Ali, Varun Naganathan, Dominik Bork
+International Conference on Conceptual Modeling
+·
+2024
+·
+1 citation","The category of LLM used in this work is a general-purpose Large Language Model, likely GPT-3, GPT-4, or a similar model, employed in a Retrieval Augmented Generation (RAG) approach for the task of requirements traceability.",2024,Decoder-only
+44,"Using Language Models for Enhancing the Completeness of Natural-Language Requirements
+Dipeeka Luitel, Shabnam Hassani, Mehrdad Sabetzadeh, S Luitel, Hassani
+Requirements Engineering: Foundation for Software Quality
+·
+2023
+·
+10 citations","Transformer-based Large Language Model (LLM), specifically BERT",2023,Encoder-Decoder
+45,"ARIA-QA: AI-agent based requirements inspection and analysis through question answering
+Chitrak Biswas, Souvick Das
+Innovations in Systems and Software Engineering
+·
+2024
+·
+0 citations","The category of LLM used in the ARIA framework is the Mixtral 8x7B, a large language model developed by Mistral AI with a sparse mixture-of-experts (SMoE) architecture.",2024,Decoder-only
+46,"Goal Model Extraction from User Stories Using Large Language Models
+Vaishali Siddeshwar, Sanaa Alwidian, Masoud Makrehchi
+Quality of Information and Communications Technology
+·
+2024
+·
+0 citations","The category of LLM used in Vaishali Siddeshwar, Sanaa Alwidian, Masoud Makrehchi (2024) is GPT-4.",2024,Decoder-only
+47,"Can Large Language Models (LLMs) Compete with Human Requirements Reviewers? -Replication of an Inspection Experiment on Requirements Documents
+Daniel Seifert, Lisa Jöckel, Adam Trendowicz, Marcus Ciolkowski, Thorsten Honroth, Andreas Jedlitschka
+International Conference on Product Focused Software Process Improvement
+·
+2024
+·
+0 citations","The category of LLMs used in this study are GPT-4, GPT-4-Turbo, Nous-Hermes-2-Mixtral-8x7B-DPO, Phi-3-medium-128k-instruct, and GPT-3.5-Turbo.",2024,Decoder-only
+48,"Towards Taming Large Language Models with Prompt Templates for Legal GRL Modeling
+Sybren De Kinderen, Karolin Winter
+BPMDS/EMMSAD@CAiSE
+·
+2024
+·
+1 citation","The category of LLM used in this research is the GPT-3.5 model developed by OpenAI, specifically the ChatGPT interface.",2024,Decoder-only
+49,"Evaluating Generative Language Models with Prompt Engineering for Categorizing User Stories to its Sector Domains
+Batool Alawaji, Mona Hakami, Bader Alshemaimri
+2024 IEEE 9th International Conference for Convergence in Technology (I2CT)
+·
+2024
+·
+1 citation","The category of LLMs used in Batool Alawaji, Mona Hakami, Bader Alshemaimri (2024) are generative language models, specifically GPT-style models.",2024,Decoder-only
+50,"Generating Specifications from Requirements Documents for Smart Devices Using Large Language Models (LLMs)
+Rainer Lutze, Klemens Waldhör
+Interacción
+·
+2024
+·
+2 citations","The category of LLM used in Rainer Lutze, Klemens Waldhör (2024) was large, pre-trained language models, specifically ChatGPT 4.0 and BARD, that were employed to assist with requirements engineering tasks.",2024,Decoder-only
+51,"Early Results of an AI Multiagent System for Requirements Elicitation and Analysis
+Malik Abdul Sami, Muhammad Waseem, Zheying Zhang, Zeeshan Rasheed, Kari Systä, Pekka Abrahamsson
+International Conference on Product Focused Software Process Improvement
+·
+2024
+·
+1 citation","The category of LLM used in Malik Abdul Sami, Muhammad Waseem, Zheying Zhang, Zeeshan Rasheed, Kari Systä, Pekka Abrahamsson (2024) is Generative Pre-trained Transformers (GPT), specifically GPT-3.5 and GPT-4o.",2024,Encoder-Decoder
+52,"Could a Large Language Model Contribute Significantly to Requirements Analysis?
+Steven Alter
+BPMDS/EMMSAD@CAiSE
+·
+2024
+·
+1 citation","The category of LLM used in this research is ChatGPT-4, a large language model developed by OpenAI.",2024,Decoder-only

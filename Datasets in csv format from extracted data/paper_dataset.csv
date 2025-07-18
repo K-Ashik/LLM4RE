@@ -1,0 +1,1114 @@
+Paper no;Paper name;Venue;Year;Abstract
+1;"Generative Language Models Potential for
+Requirement Engineering Applications:
+Insights into Current Strengths and
+Limitations";Arxiv;2024;"Traditional language models have been extensively evaluated for software
+engineering domain, however the potential of ChatGPT and Gemini
+have not been fully explored. To fulfill this gap, the paper in hand
+presents a comprehensive case study to investigate the potential of both
+language models for development of diverse types of requirement engineering
+applications. It deeply explores impact of varying levels of expert
+knowledge prompts on the prediction accuracies of both language models.
+Across 4 di!erent public benchmark datasets of requirement engineering
+tasks, it compares performance of both language models with existing
+task specific machine/deep learning predictors and traditional language
+models. Specifically, the paper utilizes 4 benchmark datasets; Pure (7,
+445 samples, requirements extraction),PROMISE (622 samples, requirements
+classification), REQuestA (300 question answer (QA) pairs) and
+Aerospace datasets (6347 words, requirements NER tagging). Our experiments
+reveal that, in comparison to ChatGPT, Gemini requires more careful prompt engineering to provide accurate predictions. Moreover,
+across requirement extraction benchmark dataset the state-of-the-art
+F1-score is 0.86 while ChatGPT and Gemini achieved 0.76 and 0.77,
+respectively. The State-of-the-art F1-score on requirements classification
+dataset is 0.96 and both language models 0.78. In name entity recognition
+(NER) task the state-of-the-art F1-score is 0.92 and ChatGPT
+managed to produce 0.36, and Gemini 0.25. Similarly, across question
+answering dataset the state-of-the-art F1-score is 0.90 and ChatGPT
+and Gemini managed to produce 0.91 and 0.88 respectively. Our experiments
+show that Gemini requires more precise prompt engineering than
+ChatGPT. Except for question-answering, both models under-perform
+compared to current state-of-the-art predictors across other tasks."
+2;"Which AI Technique Is Better to Classify Requirements?
+An Experiment with SVM, LSTM, and ChatGPT";Arxiv;2024;"Recently, Large Language Models like ChatGPT have demonstrated remarkable profeciency in various Natural
+Language Processing tasks. Their application in Requirements Engineering, especially in requirements classi!cation,
+has gained increasing interest. This paper reports an extensive empirical evaluation of two ChatGPT models,
+specifically gpt-3.5-turbo, and gpt-4 in both zero-shot and few-shot settings for requirements classi!cation. The
+question arises as to how these models compare to traditional classi!cation methods, specifically Support Vector
+Machine and Long Short-Term Memory. Based on five different datasets, our results show that there is no single
+best technique for all types of requirement classes. Interestingly, the few-shot setting has been found to be
+beneficial primarily in scenarios where zero-shot results are significantly low."
+3;"ARCHCODE: Incorporating Software Requirements in
+Code Generation with Large Language Models";Arxiv;2024;"This paper aims to extend the code generation
+capability of large language models (LLMs)
+to automatically manage comprehensive software
+requirements from given textual descriptions.
+Such requirements include both functional
+(i.e. achieving expected behavior for inputs)
+and non-functional (e.g., time/space performance,
+robustness, maintainability) requirements.
+However, textual descriptions can either
+express requirements verbosely or may even
+omit some of them. We introduce ARCHCODE,
+a novel framework that leverages in-context
+learning to organize requirements observed in
+descriptions and to extrapolate unexpressed requirements
+from them. ARCHCODE generates
+requirements from given descriptions, conditioning
+them to produce code snippets and test
+cases. Each test case is tailored to one of the
+requirements, allowing for the ranking of code
+snippets based on the compliance of their execution
+results with the requirements. Public
+benchmarks show that ARCHCODE enhances
+to satisfy functional requirements, significantly
+improving Pass@k scores. Furthermore, we introduce
+HumanEval-NFR, the first evaluation
+of LLMs’ non-functional requirements in code
+generation, demonstrating ARCHCODE’s superiority
+over baseline methods. The implementation
+of ARCHCODE and the HumanEval-NFR
+benchmark are both publicly accessible."
+4;"Prioritizing Software Requirements Using Large
+Language Models";Arxiv;2024;"Large Language Models (LLMs) are revolutionizing Software Engineering (SE)
+by introducing innovative methods for tasks such as collecting requirements,
+designing software, generating code, and creating test cases, among others. This
+article focuses on requirements engineering, typically seen as the initial phase
+of software development that involves multiple system stakeholders. Despite its
+key role, the challenge of identifying requirements and satisfying all stakeholders
+within time and budget constraints remains significant. To address the challenges
+in requirements engineering, this study introduces a web-based software tool utilizing
+AI agents and prompt engineering to automate task prioritization and
+apply diverse prioritization techniques, aimed at enhancing project management
+within the agile framework. This approach seeks to transform the prioritization
+of agile requirements, tackling the substantial challenge of meeting stakeholder
+needs within set time and budget limits. Furthermore, the source code of our
+developed prototype is available on GitHub, allowing for further experimentation
+and prioritization of requirements, facilitating research and practical application."
+5;"Using Large Language Models for Natural
+Language Processing Tasks in Requirements
+Engineering: A Systematic Guideline";Arxiv;2024;"Large Language Models (LLMs) are the cornerstone in automating
+Requirements Engineering (RE) tasks, underpinning recent advancements
+in the field. Their pre-trained comprehension of natural language
+is pivotal for effectively tailoring them to specific RE tasks. However,
+selecting an appropriate LLM from a myriad of existing architectures
+and fine-tuning it to address the intricacies of a given task poses a
+significant challenge for researchers and practitioners in the RE domain.
+Utilizing LLMs e!ectively for NLP problems in RE necessitates a dual
+understanding: firstly, of the inner workings of LLMs, and secondly, of a
+systematic approach to selecting and adapting LLMs for NLP4RE tasks.
+This chapter aims to furnish readers with essential knowledge about
+LLMs in its initial segment. Subsequently, it provides a comprehensive
+guideline tailored for students, researchers, and practitioners on harnessing
+LLMs to address their specific objectives. By offering insights into
+the workings of LLMs and furnishing a practical guide, this chapter contributes
+towards improving future research and applications leveraging
+LLMs for solving RE challenges."
+6;"Rethinking Legal Compliance Automation:
+Opportunities with Large Language Models";RE;2024;"As software-intensive systems face growing pressure
+to comply with laws and regulations, providing automated support
+for compliance analysis has become paramount. Despite advances
+in the Requirements Engineering (RE) community on legal
+compliance analysis, important obstacles remain in developing
+accurate and generalizable compliance automation solutions. This
+paper highlights some observed limitations of current approaches
+and examines how adopting new automation strategies that
+leverage Large Language Models (LLMs) can help address these
+shortcomings and open up fresh opportunities. Specifically, we
+argue that the examination of (textual) legal artifacts should, first,
+employ a broader context than sentences, which have widely been
+used as the units of analysis in past research. Second, the mode
+of analysis with legal artifacts needs to shift from classification
+and information extraction to more end-to-end strategies that are
+not only accurate but also capable of providing explanation and
+justification.We present a compliance analysis approach designed
+to address these limitations. We further outline our evaluation
+plan for the approach and provide preliminary evaluation results
+based on data processing agreements (DPAs) that must comply
+with the General Data Protection Regulation (GDPR). Our initial
+findings suggest that our approach yields substantial accuracy
+improvements and, at the same time, provides justification for
+compliance decisions."
+7;"SimAC: simulating agile collaboration to generate
+acceptance criteria in user story elaboration";ASE;2024;"In agile requirements engineering, Generating Acceptance Criteria (GAC) to elaborate
+user stories plays a pivotal role in the sprint planning phase, which provides
+a reference for delivering functional solutions. GAC requires extensive collaboration
+and human involvement. However, the lack of labeled datasets tailored for User
+Story attached with Acceptance Criteria (US-AC) poses significant challenges for
+supervised learning techniques attempting to automate this process. Recent advancements
+in Large Language Models (LLMs) have showcased their remarkable textgeneration
+capabilities, bypassing the need for supervised fine-tuning. Consequently,
+LLMs offer the potential to overcome the above challenge. Motivated by this, we
+propose SimAC, a framework leveraging LLMs to simulate agile collaboration, with
+three distinct role groups: requirement analyst, quality analyst, and others. Initiated
+by role-based prompts, LLMs act in these roles sequentially, following a create-
+update-update paradigm in GAC. Owing to the unavailability of ground truths,
+we invited practitioners to build a gold standard serving as a benchmark to evaluate
+the completeness and validity of auto-generated US-AC against human-crafted
+ones. Additionally, we invited eight experienced agile practitioners to evaluate the
+quality of US-AC using the INVEST framework. The results demonstrate consistent
+improvements across all tested LLMs, including the LLaMA and GPT-3.5 series.
+Notably, SimAC significantly enhances the ability of gpt-3.5-turbo in GAC, achieving
+improvements of 29.48% in completeness and 15.56% in validity, along with the
+highest INVEST satisfaction score of 3.21/4. Furthermore, this study also provides
+case studies to illustrate SimAC’s effectiveness and limitations, shedding light on
+the potential of LLMs in automated agile requirements engineering."
+8;"Leveraging Graph-RAG and Prompt Engineering
+to Enhance LLM-Based Automated Requirement
+Traceability and Compliance Checks";Arxiv;2024;"Ensuring that Software Requirements Specifications (SRS) align with higherlevel
+organizational or national requirements is vital, particularly in regulated
+environments such as finance and aerospace. In these domains, maintaining consistency,
+adhering to regulatory frameworks, minimizing errors, and meeting
+critical expectations are essential for the reliable functioning of systems. The
+widespread adoption of large language models (LLMs) highlights their immense
+potential, yet there remains considerable scope for improvement in retrieving relevant
+information and enhancing reasoning capabilities. This study demonstrates
+that integrating a robust Graph-RAG framework with advanced prompt engineering
+techniques, such as Chain of Thought and Tree of Thought, can significantly
+enhance performance. Compared to baseline RAG methods and simple prompting
+strategies, this approach delivers more accurate and context-aware results.
+While this method demonstrates significant improvements in performance, it
+comes with challenges. It is both costly and more complex to implement across
+diverse contexts, requiring careful adaptation to specific scenarios. Additionally,
+its effectiveness heavily relies on having complete and accurate input data, which
+may not always be readily available, posing further limitations to its scalability
+and practicality."
+9;The Application of LLMs in the Analysis and Modeling of Software Requirements;QRS-C;2024;"In modern software engineering, requirements
+analysis and modeling are key steps in requirements
+engineering, influencing the subsequent system design and
+implementation. Traditional requirements analysis and
+modeling methods usually involve multiple stakeholders
+such as requirements providers and analysts working
+together collaboratively and iteratively, requiring a
+significant amount of manpower. It is of great significance
+to reduce the burden on requirements providers and analysts
+and improve the efficiency of analysis and modeling. In
+existing work, some merely utilize knowledge repositories
+to provide more knowledge in support of analysis or
+modeling, while others employ natural language processing
+(NLP) techniques to automate the analysis or modeling
+process. However, neither has relieved the burden on
+requirements providers and analysts. The emergence of
+large language models(LLMs) has brought new possibilities
+to requirements analysis and modeling.LLMs can combine
+knowledge base processing and understanding of large
+amounts of natural language data, providing a new
+automated requirement analysis method. This paper
+proposes an automated requirements analysis and modeling
+method for Support Vector Machine(SVM) classifier and
+LLMs — SVM-LLMs.The method is deployed based on the
+intelligent requirement service platform - ""Wisdom
+Requirement Communication"", which combines SVM and
+LLMs to effectively improve the accuracy of requirements
+analysis and significantly reduce the time in the software
+development process."
+10;"Investigating ChatGPT’s Potential to Assist in
+Requirements Elicitation Processes";SEAA;2023;"Natural Language Processing (NLP) for Requirements
+Engineering (RE) (NLP4RE) seeks to apply NLP tools,
+techniques, and resources to the RE process to increase the
+quality of the requirements. There is little research involving the
+utilization of Generative AI-based NLP tools and techniques for
+requirements elicitation. In recent times, Large Language Models
+(LLM) like ChatGPT have gained significant recognition due to
+their notably improved performance in NLP tasks. To explore
+the potential of ChatGPT to assist in requirements elicitation
+processes, we formulated six questions to elicit requirements
+using ChatGPT. Using the same six questions, we conducted
+interview-based surveys with five RE experts from academia and
+industry and collected 30 responses containing requirements. The
+quality of these 36 responses (human-formulated + ChatGPTgenerated)
+was evaluated over seven different requirements
+quality attributes by another five RE experts through a second
+round of interview-based surveys. In comparing the quality of
+requirements generated by ChatGPT with those formulated by
+human experts, we found that ChatGPT-generated requirements
+are highly Abstract, Atomic, Consistent, Correct, and Understandable.
+Based on these results, we present the most pressing
+issues related to LLMs and what future research should focus
+on to leverage the emergent behaviour of LLMs more effectively
+in natural language-based RE activities."
+11;"Extracting Domain Models from Textual
+Requirements in the Era of Large Language Models";MODELS-C;2023;"Requirements Engineering is a critical part of the
+software lifecycle, describing what a given piece of software
+will do (functional) and how it will do it (non-functional).
+Requirements documents are often textual, and it is up to
+software engineers to extract the relevant domain models from
+the text, which is an error-prone and time-consuming task.
+Considering the recent attention gained by Large Language
+Models (LLMs), we explored how they could support this task.
+This paper investigates how such models can be used to extract
+domain models from agile product backlogs and compare them
+to (i) a state-of-practice tool as well as (ii) a dedicated Natural
+Language Processing (NLP) approach, on top of a reference
+dataset of 22 products and 1, 679 user stories. Based on these
+results, this paper is a first step towards using LLMs and/or
+tailored NLP to support automated requirements engineering
+thanks to model extraction using artificial intelligence."
+12;"Interlinking User Stories and GUI Prototyping: A
+Semi-Automatic LLM-based Approach";RE;2024;"Interactive systems are omnipresent today and the
+need to create graphical user interfaces (GUIs) is just as ubiquitous.
+For the elicitation and validation of requirements, GUI
+prototyping is a well-known and effective technique, typically
+employed after gathering initial user requirements represented
+in natural language (NL) (e.g., in the form of user stories). Unfortunately,
+GUI prototyping often requires extensive resources,
+resulting in a costly and time-consuming process. Despite various
+easy-to-use prototyping tools in practice, there is often a lack
+of adequate resources for developing GUI prototypes based on
+given user requirements. In this work, we present a novel Large
+Language Model (LLM)-based approach providing assistance for
+validating the implementation of functional NL-based requirements
+in a GUI prototype embedded in a prototyping tool. In
+particular, our approach aims to detect functional user stories
+that are not implemented in a GUI prototype and provides
+recommendations for suitable GUI components directly implementing
+the requirements. We collected requirements for existing
+GUIs in the form of user stories and evaluated our proposed
+validation and recommendation approach with this dataset. The
+obtained results are promising for user story validation and we
+demonstrate feasibility for the GUI component recommendations."
+13;"Requirements-driven Slicing of Simulink Models
+Using LLMs";REW;2024;"Model slicing is a useful technique for identifying a
+subset of a larger model that is relevant to fulfilling a given
+requirement. Notable applications of slicing include reducing
+inspection effort when checking design adequacy to meet requirements
+of interest and when conducting change impact analysis. In
+this paper, we present a method based on large language models
+(LLMs) for extracting model slices from graphical Simulink
+models. Our approach converts a Simulink model into a textual
+representation, uses an LLM to identify the necessary Simulink
+blocks for satisfying a specific requirement, and constructs a
+sound model slice that incorporates the blocks identified by the
+LLM. We explore how different levels of granularity (verbosity)
+in transforming Simulink models into textual representations,
+as well as the strategy used to prompt the LLM, impact the
+accuracy of the generated slices. Our preliminary findings suggest
+that prompts created by textual representations that retain
+the syntax and semantics of Simulink blocks while omitting
+visual rendering information of Simulink models yield the most
+accurate slices. Furthermore, the chain-of-thought and zero-shot
+prompting strategies result in the largest number of accurate
+model slices produced by our approach."
+14;"Using LLMs in Software Requirements
+Specifications: An Empirical Evaluation";RE;2024;"The creation of a Software Requirements Specification
+(SRS) document is important for any software development
+project. Given the recent prowess of Large Language Models
+(LLMs) in answering natural language queries and generating
+sophisticated textual outputs, our study explores their capability
+to produce accurate, coherent, and structured drafts of these
+documents to accelerate the software development lifecycle. We
+assess the performance of GPT-4 and CodeLlama in drafting
+an SRS for a university club management system and compare
+it against human benchmarks using eight distinct criteria. Our
+results suggest that LLMs can match the output quality of an
+entry-level software engineer to generate an SRS, delivering
+complete and consistent drafts. We also evaluate the capabilities
+of LLMs to identify and rectify problems in a given requirements
+document. Our experiments indicate that GPT-4 is capable of
+identifying issues and giving constructive feedback for rectifying
+them, while CodeLlama’s results for validation were not as
+encouraging.We repeated the generation exercise for four distinct
+use cases to study the time saved by employing LLMs for
+SRS generation. The experiment demonstrates that LLMs may
+facilitate a significant reduction in development time for entrylevel
+software engineers. Hence, we conclude that the LLMs can
+be gainfully used by software engineers to increase productivity
+by saving time and effort in generating, validating and rectifying
+software requirements."
+15;"GPT-Powered Elicitation Interview Script Generator
+for Requirements Engineering Training";RE;2024;"Elicitation interviews are the most common requirements
+elicitation technique, and proficiency in conducting these
+interviews is crucial for requirements elicitation. Traditional
+training methods, typically limited to textbook learning, may
+not sufficiently address the practical complexities of interviewing
+techniques. Practical training with various interview scenarios is
+important for understanding how to apply theoretical knowledge
+in real-world contexts. However, there is a shortage of educational
+interview material, as creating interview scripts requires both
+technical expertise and creativity. To address this issue, we
+develop a specialized GPT agent for auto-generating interview
+scripts. The GPT agent is equipped with a dedicated knowledge
+base tailored to the guidelines and best practices of requirements
+elicitation interview procedures. We employ a prompt chaining
+approach to mitigate the output length constraint of GPT to
+be able to generate thorough and detailed interview scripts.
+This involves dividing the interview into sections and crafting
+distinct prompts for each, allowing for the generation of complete
+content for each section. The generated scripts are assessed
+through standard natural language generation evaluation metrics
+and an expert judgment study, confirming their applicability in
+requirements engineering training."
+16;"Generating Requirements Elicitation Interview
+Scripts with Large Language Models";REW;2023;"Requirements elicitation interviews are the most
+popular requirements elicitation technique and an integral part
+of requirements engineering education. Good and bad interview
+scripts provide students with examples of applying the theory.
+Constructing an interview script requires technical knowledge,
+practical experience, and creativity. As a result, only a few
+educational interview scripts are available to the community.
+This paper explores automatically generating interview scripts
+with large language models through prompt engineering. Our
+contribution is two-fold: First, we present a graph representation
+of interactive interview scripts. Second, we apply prompt
+engineering techniques to generate business domain descriptions,
+linear scripts, and conversation pieces focused on certain types of
+mistakes. Our findings indicate that large language models face
+challenges in handling interview conversation graphs. However,
+we can enhance the quality of the generated interview scripts by
+decomposing the task into smaller components and refining the
+prompts to provide more precise instructions."
+17;"Zero-shot Learning for Named Entity Recognition
+in Software Specification Documents";RE;2023;"Named entity recognition (NER) is a natural language
+processing task that has been used in Requirements
+Engineering for the identification of entities such as actors,
+actions, operators, resources, events, GUI elements, hardware,
+APIs, and others. NER might be particularly useful for extracting
+key information from Software Requirements Specification
+documents, which provide a blueprint for software development.
+However, a common challenge in this domain is the lack of
+annotated data. In this article, we propose and analyze two
+zero-shot approaches for NER in the requirements engineering
+domain. These are found to be particularly effective in situations
+where labeled data is scarce or non-existent. The first approach
+is a template-based zero-shot learning mechanism that uses
+the prompt engineering approach and achieves 93% accuracy
+according to our experimental results. The second solution takes
+an orthogonal approach by transforming the entity recognition
+problem into a question-answering task which results in 98%
+accuracy. Both zero-shot NER approaches introduced in this
+work perform better than the existing state-of-the-art solutions
+in the requirements engineering domain."
+18;"Agile Methodology for the Standardization of Engineering
+Requirements Using Large Language Models";SE;2023;"The increased complexity of modern systems is calling for an integrated and comprehensive
+approach to system design and development and, in particular, a shift toward Model-Based
+Systems Engineering (MBSE) approaches for system design. The requirements that serve as the
+foundation for these intricate systems are still primarily expressed in Natural Language (NL), which
+can contain ambiguities and inconsistencies and suffer from a lack of structure that hinders their
+direct translation into models. The colossal developments in the field of Natural Language Processing
+(NLP), in general, and Large Language Models (LLMs), in particular, can serve as an enabler for
+the conversion of NL requirements into machine-readable requirements. Doing so is expected to
+facilitate their standardization and use in a model-based environment. This paper discusses a twofold
+strategy for converting NL requirements into machine-readable requirements using language
+models. The first approach involves creating a requirements table by extracting information from
+free-form NL requirements. The second approach consists of an agile methodology that facilitates the
+identification of boilerplate templates for different types of requirements based on observed linguistic
+patterns. For this study, three different LLMs are utilized. Two of these models are fine-tuned versions
+of Bidirectional Encoder Representations from Transformers (BERTs), specifically, aeroBERT-NER
+and aeroBERT-Classifier, which are trained on annotated aerospace corpora. Another LLM, called
+flair/chunk-english, is utilized to identify sentence chunks present in NL requirements. All three
+language models are utilized together to achieve the standardization of requirements. The effectiveness
+of the methodologies is demonstrated through the semi-automated creation of boilerplates for
+requirements from Parts 23 and 25 of Title 14 Code of Federal Regulations (CFRs)."
+19;"Improving requirements completeness: automated assistance
+through large language models";REJ;2024;"Natural language (NL) is arguably the most prevalent medium for expressing systems and software requirements. Detecting
+incompleteness in NL requirements is a major challenge. One approach to identify incompleteness is to compare requirements
+with external sources. Given the rise of large language models (LLMs), an interesting question arises: Are LLMs
+useful external sources of knowledge for detecting potential incompleteness in NL requirements? This article explores this
+question by utilizing BERT. Specifically, we employ BERT’s masked language model to generate contextualized predictions
+for filling masked slots in requirements. To simulate incompleteness, we withhold content from the requirements and assess
+BERT’s ability to predict terminology that is present in the withheld content but absent in the disclosed content. BERT can
+produce multiple predictions per mask. Our first contribution is determining the optimal number of predictions per mask,
+striking a balance between effectively identifying omissions in requirements and mitigating noise present in the predictions.
+Our second contribution involves designing a machine learning-based filter to post-process BERT’s predictions and further
+reduce noise. We conduct an empirical evaluation using 40 requirements specifications from the PURE dataset. Our findings
+indicate that: (1)""BERT’s predictions effectively highlight terminology that is missing from requirements, (2)""BERT outperforms
+simpler baselines in identifying relevant yet missing terminology, and (3)""our filter reduces noise in the predictions,
+enhancing BERT’s effectiveness for completeness checking of requirements."
+20;"PRCBERT: Prompt Learning for Requirement Classification using
+BERT-based Pretrained Language Models";ASE;2023;"Software requirement classification is a longstanding and important
+problem in requirement engineering. Previous studies have
+applied various machine learning techniques for this problem, including
+Support Vector Machine (SVM) and decision trees. With
+the recent popularity of NLP technique, the state-of-the-art approach
+NoRBERT utilizes the pre-trained language model BERT and
+achieves a satisfactory performance. However, the dataset PROMISE
+used by the existing approaches for this problem consists of only
+hundreds of requirements that are outdated according to today’s
+technology and market trends. Besides, the NLP technique applied
+in these approaches might be obsolete. In this paper, we propose
+an approach of prompt learning for requirement classification using
+BERT-based pretrained language models (PRCBERT), which
+applies flexible prompt templates to achieve accurate requirements
+classi!cation. Experiments conducted on two existing small-size requirement
+datasets (PROMISE and NFR-REVIEW) and our collected
+large-scale requirement dataset NFR-SO prove that PRCBERT exhibits
+moderately better classi!cation performance than NoRBERT
+and MLM-BERT (BERT with the standard prompt template). On
+the de-labeled NFR-REVIEW""% and NFR-SO datasets, Trans_PRCBERT
+(the version of PRCBERT which is !ne-tuned on PROMISE) is able
+to have a satisfactory zero-shot performance with 53.27% and 72.96%
+F1-score when enabling a self-learning strategy."
+21;"Requirements Modeling Aided by ChatGPT: An
+Experience in Embedded Systems";REW;2023;"Requirements modeling is a crucial tool for requirements
+analysis and has been demonstrated to aid in the comprehension
+and analysis of requirements. However, constructing
+requirements models from natural language descriptions in user
+requirements documents can be a time-consuming task. With
+the growing attention given to large language models, they have
+become an integral component of natural language processing.
+Consequently, utilizing large language models to facilitate the
+construction of high-quality requirement models is appealing.
+This paper presents an automated framework for requirement
+model generation that incorporates ChatGPT-based zero-shot
+learning to extract requirement models from requirement texts
+and subsequently compose them using predefined rules. The
+framework defines the requirement extraction task of ChatGPT
+by designing appropriate prompt, and it generates requirement
+models by employing composition rules. Furthermore, a case
+study on a digital home system is conducted to validate the
+feasibility of the framework in assisting requirements modeling."
+22;"The Current Challenges of So!ware Engineering in the Era of
+Large Language Models";Arxiv;2024;"With the advent of large language models (LLMs) in the arti!cial intelligence (AI) area, the field of software
+engineering (SE) has also witnessed a paradigm shift. These models, by leveraging the power of deep learning
+and massive amounts of data, have demonstrated an unprecedented capacity to understand, generate, and
+operate programming languages. They can assist developers in completing a broad spectrum of software
+development activities, encompassing software design, automated programming, and maintenance, which
+potentially reduces huge human efforts. Integrating LLMs within the SE landscape (LLM4SE) has become a
+burgeoning trend, necessitating exploring this emergent landscape’s challenges and opportunities.
+The paper aims at revisiting the software development life cycle (SDLC) under LLMs, and highlighting
+challenges and opportunities of the new paradigm. The paper !rst summarizes the overall process of LLM4SE,
+and then elaborates on the current challenges based on a through discussion. The discussion was held among
+more than 20 participants from academia and industry, specializing in fields such as software engineering
+and artifcial intelligence. Speci!cally, we achieve 26 key challenges from seven aspects, including software
+requirement & design, coding assistance, testing code generation, code review, code maintenance, software
+vulnerability management, and data, training, and evaluation. We hope the achieved challenges would benefit
+future research in the LLM4SE field."
+23;"Using LLMs for Use Case Modelling of IoT Systems:
+An Experience Report";MODELS;2024;"Requirements engineering (RE) plays an essential role in the success
+of system and software development. Textual use case models are
+valuable for capturing diverse scenarios describing the interactions
+between the system and its actors, but their development, particularly
+for the Internet of Things (IoT), can be tedious and error-prone
+due to the added complexities and heterogeneous nature of such systems.
+Automating requirements elicitation and specification tasks
+with the use of generative AI is highly desirable. This paper explores
+the potential of large language models (LLMs) for generating interaction
+models for IoT systems from informal problem descriptions.
+We investigate the capabilities of OpenAI’s GPT-4 and Google’s
+Gemini for generating standard and UCM4IoT textual use cases
+by carrying out a comparative study using four IoT applications.
+While both of these LLMs show promise as supporting tools, our
+findings indicate a need for further refinement and domain-speci!c
+training to enhance their precision and reliability in requirements
+development for the IoT domain."
+24;"Chapter 11: Legal Requirements Analysis: A
+Regulatory Compliance Perspective";Arxiv;2024;"Modern software has been an integral part of everyday activities
+in many disciplines and application contexts. Introducing intelligent
+automation by leveraging artificial intelligence (AI) led to breakthroughs
+in many fields. The e!ectiveness of AI can be attributed to
+several factors, among which is the increasing availability of data. Regulations
+such as the general data protection regulation (GDPR) in the
+European Union (EU) are introduced to ensure the protection of personal
+data. Software systems that collect, process, or share personal data
+are subject to compliance with such regulations. Developing compliant
+software depends heavily on addressing legal requirements stipulated in
+applicable regulations, a central activity in the requirements engineering
+(RE) phase of the software development process. RE is concerned with
+specifying and maintaining requirements of a system-to-be, including legal
+requirements. Legal agreements which describe the policies organizations
+implement for processing personal data can provide an additional
+source to regulations for eliciting legal requirements. In this chapter, we
+explore a variety of methods for analyzing legal requirements and exemplify
+them on GDPR. Specifically, we describe possible alternatives
+for creating machine-analyzable representations from regulations, survey
+the existing automated means for enabling compliance verification
+against regulations, and further reflect on the current challenges of legal
+requirements analysis."
+25;"Can AI Help with the Formalization of Railway
+Cybersecurity Requirements?";ISoLA;2024;"Driven by and dependent on ICT, like almost everything
+today, railway transportation has become a critical infrastructure and,
+as such, is exposed to threats against communication of on-board and
+wayside components. The shift to cybersecurity brings up the need to
+comply with new security requirements, and once more security software
+engineers are confronted with a well-known problem: how to express informal
+requirements into unambiguous formal expressions that can be
+translated into enforceable policies or be used to verify the security of
+a system design. We have experience in translating natural language requirements
+from standards, regulations, and guidelines into Controlled
+Natural Language for Data Sharing Agreements (CNL4DSA), a formalism
+that serves the purpose of bridging natural and formal expressions.
+The translation of requirements is challenging, calling for a rigorous process
+of coding agreement between researchers. Following the trend of the
+time, in this paper, we question whether AI and, in particular, the novel
+Generative Language Models, can help us with this translation exercise.
+Previous work shows that AI can help in writing security code, although
+not always producing secure code; less studied is the quality of generative
+AI’s working with controlled natural languages in writing requirements
+for security compliance. Can AI be a valuable tool or companion in this
+endeavour too? To answer this question, we engage ChatGPT and Microsoft
+365 Copilot with the same challenges that we faced when translating
+cybersecurity requirements for railway systems into CNL4DSA.
+Comparing our results from some time ago with those of the machine,
+we found surprising insights, showing the high potentiality of using AI
+in requirements engineering."
+26;"Model Generation with LLMs:
+from Requirements to UML Sequence Diagram";REW;2024;"Complementing natural language (NL) requirements
+with graphical models can improve stakeholders’ communication
+and provide directions for system design. However,
+creating models from requirements involves manual effort. The
+advent of generative large language models (LLMs), ChatGPT
+being a notable example, offers promising avenues for automated
+assistance in model generation. This paper investigates the capability
+of ChatGPT to generate a specific type of model, i.e., UML
+sequence diagrams, from NL requirements. We conduct a qualitative
+study in which we examine the sequence diagrams generated
+by ChatGPT for 28 requirements documents of various types and
+from different domains. Observations from the analysis of the
+generated diagrams have systematically been captured through
+evaluation logs, and categorized through thematic analysis. Our
+results indicate that, although the models generally conform to
+the standard and exhibit a reasonable level of understandability,
+their completeness and correctness with respect to the specified
+requirements often present challenges. This issue is particularly
+pronounced in the presence of requirements smells, such as
+ambiguity and inconsistency. The insights derived from this study
+can influence the practical utilization of LLMs in the RE process,
+and open the door to novel RE-specific prompting strategies
+targeting effective model generation."
+27;"Toward Regulatory Compliance: A few-shot
+Learning Approach to Extract Processing Activities";REW;2024;"The widespread use of mobile applications has
+driven the growth of the industry, with companies relying
+heavily on user data for services like targeted advertising and
+personalized offerings. In this context, privacy regulations such as
+the General Data Protection Regulation (GDPR) play a crucial
+role. One of the GDPR requirements is the maintenance of a
+Record of Processing Activities (RoPA) by companies. RoPA
+encompasses various details, including the description of data
+processing activities, their purposes, types of data involved, and
+other relevant external entities. Small app-developing companies
+face challenges in meeting such compliance requirements due to
+resource limitations and tight timelines. To aid these developers
+and prevent fines, we propose a method to generate segments of
+RoPA from user-authored usage scenarios using large language
+models (LLMs). Our method employs few-shot learning with
+GPT-3.5 Turbo to summarize usage scenarios and generate RoPA
+segments. We evaluate different factors that can affect fewshot
+learning performance consistency for our summarization
+task, including the number of examples in few-shot learning
+prompts, repetition, and order permutation of examples in the
+prompts. Our findings highlight the significant influence of the
+number of examples in prompts on summarization F1 scores,
+while demonstrating negligible variability in F1 scores across
+multiple prompt repetitions. Our prompts achieve successful
+summarization of processing activities with an average 70%
+ROUGE-L F1 score. Finally, we discuss avenues for improving
+results through manual evaluation of the generated summaries."
+28;"Advancing Requirements Engineering through
+Generative AI: Assessing the Role of LLMs";SpringerNature;2024;"Requirements Engineering (RE) is a critical phase in software development
+including the elicitation, analysis, specification, and validation of software
+requirements. Despite the importance of RE, it remains a challenging process due to
+the complexities of communication, uncertainty in the early stages, and inadequate
+automation support. In recent years, large language models (LLMs) have shown
+significant promise in diverse domains, including natural language processing,
+code generation, and program understanding. This chapter explores the potential
+of LLMs in driving RE processes, aiming to improve the efficiency and accuracy
+of requirements-related tasks. We propose key directions and SWOT analysis for
+research and development in using LLMs for RE, focusing on the potential for
+requirements elicitation, analysis, specification, and validation. We further present
+the results from a preliminary evaluation, in this context."
+29;MUCE: a multilingual use case model extractor using GPT-3;IJIT;2022;"During the software requirement specification,
+the use case-based approach is used for requirements
+elicitation and analysis, for object-oriented software
+development. For identifying the use cases, traditionally,
+manual approach is used. Though some researchers have
+used semi-automated NLP techniques but it requires each
+word in a sentence to be tagged with its part-of-speech. In
+this paper, we exploit Generative Pre-trained Transformer-
+3 (GPT-3) for identifying the use case model by parsing the
+given software requirements. GPT-3 is an autoregressive
+language model that uses deep learning to produce humanlike
+text. It is a language prediction model that can be tuned
+with Few-Shot learning to extract functional requirements
+in a multilingual setting. We present MUCE, a Multilingual
+Use Case model Extractor tool for the extraction of use
+cases, actors and their relationships from the given users’
+software requirements. Further, not all requirement documents
+are English-centric and might be written in some
+native language. In such scenario, an automated, multilingual
+tool for structuring the use case model will really be a
+boon. The benefit of such an automated tool is that it helps
+in extracting use cases model as requirements specification
+quickly; overcoming the worries involved in manual ways.
+This tool can also prove to be a feedback to improve and
+fine-tune functional requirements so as to make them more
+complete. We evaluated the performance of our tool using
+Confusion Matrix. We authenticate our findings by validating
+various user requirements case studies written in
+different languages particularly, English, Spanish and
+French. Our tool performs better than existing state-of-theart
+use case model extraction techniques. Our research
+endeavor will assist software designers and architects to
+generate actors and use cases instantaneously from the
+given users’ software requirement documents, and save
+their time."
+30;"An Automated Model of Software Requirement
+Engineering Using GPT-3.5";ICETSIS;2024;While the potential of AI in software development is undeniable, integrating advanced models like GPT-3.5 into its core processes like requirements engineering remains largely unexplored. This research investigates the effectiveness of GPT-3.5 in automating key tasks within software requirements engineering. The primary objective is to comprehensively explore the capabilities, limitations, and potential applications of GPT-3.5 in software requirements engineering. Subsequently, the research undergoes thorough analysis and evaluation to gather insights into the strengths and limitations of GPT-3.5 in the requirement-gathering process. The research concludes by identifying the limitations and putting forth recommendations for future research endeavours aimed at integrating GPT-3.5 into software requirement engineering processes. While GPT-3.5 demonstrates proficiency in aspects like creative prototyping and question generation, limitations in areas like domain understanding and context awareness become evident. By outlining these limitations, the authors offer concrete recommendations for future research focusing on the seamless integration of GPT-3.5 and similar models into the broader framework of software requirements engineering.
+31;"Exploring Requirements Elicitation from App Store
+User Reviews Using Large Language Models";Arxiv;2024;"Mobile applications have become indispensable companions
+in our daily lives. Spanning over the categories from
+communication and entertainment to healthcare and finance,
+these applications have been influential in every aspect. Despite
+their omnipresence, developing apps that meet user needs and
+expectations still remains a challenge. Traditional requirements
+elicitation methods like user interviews can be time-consuming
+and suffer from limited scope and subjectivity. This research
+introduces an approach leveraging the power of Large Language
+Models (LLMs) to analyze user reviews for automated
+requirements elicitation. We fine-tuned three well-established
+LLMs BERT, DistilBERT, and GEMMA, on a dataset of app
+reviews labeled for usefulness. Our evaluation revealed BERT’s
+superior performance, achieving an accuracy of 92.40% and an
+F1-score of 92.39%, demonstrating its effectiveness in accurately
+classifying useful reviews. While GEMMA displayed a lower
+overall performance, it excelled in recall (93.39%), indicating
+its potential for capturing a comprehensive set of valuable user
+insights. These findings suggest that LLMs offer a promising
+avenue for streamlining requirements elicitation in mobile app
+development, leading to the creation of more user-centric and
+successful applications."
+32;"Empirical Evaluation of ChatGPT on Requirements
+Information Retrieval Under Zero-Shot Setting";Arxiv;2023;"Recently, various illustrative examples have shown the impressive
+ability of generative large language models (LLMs)
+to perform NLP related tasks. ChatGPT undoubtedly is the
+most representative model. We empirically evaluate Chat-
+GPT’s performance on requirements information retrieval
+(IR) tasks to derive insights into designing or developing
+more e!ective requirements retrievalmethods or tools based
+on generative LLMs. We design an evaluation framework
+considering four di!erent combinations of two popular IR
+tasks and two common artifact types. Under zero-shot setting,
+evaluation results reveal ChatGPT’s promising ability
+to retrieve requirements relevant information (high recall)
+and limited ability to retrieve more specific requirements
+information (low precision). Our evaluation of ChatGPT on
+requirements IR under zero-shot setting provides preliminary
+evidence for designing or developing more e!ective
+requirements IR methods or tools based on LLMs."
+33;"Towards the LLM-Based Generation of Formal
+Specifications from Natural-Language Contracts:
+Early Experiments with SYMBOLEO";Arxiv;2024;"Over the past decade, different domain-specific languages
+(DSLs) were proposed to formally specify requirements
+stated in legal contracts, mainly for analysis but also for code
+generation. SYMBOLEO is a promising language in that area.
+However, writing formal specifications from natural-language
+contracts is a complex task, especial for legal experts who do
+not have formal language expertise. This paper reports on an
+exploratory experiment targeting the automated generation of
+SYMBOLEO specifications from business contracts in English
+using Large Language Models (LLMs). Combinations (38) of
+prompt components are investigated (with/without the grammar,
+semantics explanations, 0 to 3 examples, and emotional prompts),
+mainly on GPT-4o but also to a lesser extent on 4 other LLMs.
+The generated specifications are manually assessed against 16
+error types grouped into 3 severity levels. Early results on all
+LLMs show promising outcomes (even for a little-known DSL)
+that will likely accelerate the specification of legal contracts. However,
+several observed issues, especially around grammar/syntax
+adherence and environment variable identification (49%), suggest
+many areas where potential improvements should be investigated."
+34;"Large Language Models for Software Engineering:
+A Systematic Literature Review";SEM;2024;"Large Language Models (LLMs) have significantly impacted numerous domains, including Software Engineering
+(SE). Many recent publications have explored LLMs applied to various SE tasks. Nevertheless, a
+comprehensive understanding of the application, effects, and possible limitations of LLMs on SE is still in
+its early stages. To bridge this gap, we conducted a Systematic Literature Review (SLR) on LLM4SE, with
+a particular focus on understanding how LLMs can be exploited to optimize processes and outcomes. We
+selected and analyzed 395 research articles from January 2017 to January 2024 to answer four key Research
+Questions (RQs). In RQ1, we categorize different LLMs that have been employed in SE tasks, characterizing
+their distinctive features and uses. In RQ2, we analyze the methods used in data collection, pre-processing and application, highlighting the role of well-curated datasets for successful LLM for SE implementation.
+RQ3 investigates the strategies employed to optimize and evaluate the performance of LLMs in SE. Finally,
+RQ4 examines the specific SE tasks where LLMs have shown success to date, illustrating their practical
+contributions to the field. From the answers to these RQs, we discuss the current state-of-the-art and trends,
+identifying gaps in existing research, and highlighting promising areas for future study."
+35;"Refactoring goal-oriented models: a linguistic improvement using
+large language models";Softw Syst Model;2025;"Goal-oriented requirements engineering (GORE) facilitates effective communication and collaboration between stakeholders.
+Using goal models, GORE provides a structured approach to elicit, analyze, and manage requirements from the perspective
+of stakeholders’ goals and intentions. However, goal models are prone to several poor practices, called bad smells, which can
+obstruct effective communication between stakeholders. As a result, there might be misinterpretations and inconsistencies
+in the requirements. Goal models are particularly prone to linguistic bad smells, encompassing unclear or ambiguous goal
+statements, conflicting or contradictory requirements, and occurrences of misspellings. It is therefore imperative that linguistic
+bad smells are identified and addressed in goal models to ensure their quality and accuracy. In this paper, we build upon our
+previous research by enhancing the catalog of 17 goal-oriented requirements language (GRL) linguistic bad smells. We refine
+the detection techniques using a combination of NLP-based and LLM-based techniques. These enhancements significantly
+improved the tool’s detection capabilities compared to our previous work. Furthermore, we offer automated refactoring
+solutions for 9 of these bad smells through GPT prompts. The remaining four identified bad smells are left to the user’s
+discretion for refactoring, due to their subjective nature. The detection and refactoring processes are implemented in a tool,
+tailored to the Textual GRL (TGRL) language. We evaluated the bad smells refactoring approach and tool by administering a
+questionnaire to 13 participants, who assessed the correctness of the refactoring of 71 linguistic bad smells found in four (4)
+TGRL models. Participants perceived the refactored sentences as highly correct across the different types of linguistic bad
+smells."
+36;"NL2CTL: Automatic Generation
+of Formal Requirements Specifications
+via Large Language Models";ICFEM;2024;"Reducing the gap between natural language requirements
+and precise formal specifications is a critical task in requirements engi-
+neering. In recent years, requirement engineering is becoming increas-
+ingly complex alongside the growing intricacy of system engineering.
+Most requirements are expressed in natural language, which can be
+incomplete and ambiguous. However, formal languages with strict seman-
+tics can accurately represent certain temporal logic properties and allow
+for automated verification and analysis. This often limits the application
+of verification techniques, as writing formal specifications is a manual,
+error-prone, and time-consuming task. To address this, this paper pro-
+poses a framework that leverages Large Language Models (LLMs) to
+achieve automated conversion of natural language requirements to Com-
+putation Tree Logic (CTL). To address the issue of dataset scarcity,
+we leveraged the interactive and generative capabilities of LLMs. By
+constructing a random generation algorithm and utilizing prompt engi-
+neering, we generated an NL-CTL dataset using LLMs. The gener-
+ated dataset was then used to fine-tune the T5-Large model, enhancing
+its generative capacity. To improve generalization, this paper proposes
+the use of the GPT-3.5 Atomic Proposition (AP) Recognition method,
+which eliminates the constraints of using the framework across diﬀer-
+ent domains. A series of experimental evaluations showed that the fine-
+tuned LLM achieved an accuracy of 46.4%, whereas the LLM with few-
+shot learning using only prompt engineering achieved only 2% accuracy,
+demonstrating the feasibility of this approach."
+37;"A novel automated framework for fine-grained sentiment
+analysis of application reviews using deep neural networks";ASE;2024;"The substantial volume of user feedback contained in application reviews signifi-
+cantly contributes to the development of human-centred software requirement engi-
+neering. The abundance of unstructured text data necessitates an automated ana-
+lytical framework for decision-making. Language models can automatically extract
+fine-grained aspect-based sentiment information from application reviews. Exist-
+ing approaches are constructed based on the general domain corpus, and are chal-
+lenging to elucidate the internal technique of the recognition process, along with
+the factors contributing to the analysis results. To fully utilize software engineer-
+ing domain-specific knowledge and accurately identify aspect-sentiment pairs from
+application reviews, we design a dependency-enhanced heterogeneous graph neural
+networks architecture based on the dual-level attention mechanism. The heterogene-
+ous information network with knowledge resources from the software engineering
+field is embedded into graph convolutional networks to consider the attribute char-
+acteristics of diﬀerent node types. The relationship between aspect terms and senti-
+ment terms in application reviews is determined by adjusting the dual-level attention
+mechanism. Semantic dependency enhancement is introduced to comprehensively
+model contextual relationships and analyze sentence structure, thereby distinguish-
+ing important contextual information. To our knowledge, this marks initial eﬀorts to
+leverage software engineering domain knowledge resources to deep neural networks
+to address fine-grained sentiment analysis issues. The experimental results on multi-
+ple public benchmark datasets indicate the eﬀectiveness of the proposed automated
+framework in aspect-based sentiment analysis tasks for application reviews."
+38;"A Multi-solution Study on GDPR AI-enabled Completeness
+Checking of DPAs";ESE;2024;"Specifying legal requirements for software systems to ensure their compliance with the
+applicable regulations is a major concern of requirements engineering. Personal data which
+is collected by an organization is often shared with other organizations to perform certain
+processing activities. In such cases, the General Data Protection Regulation (GDPR) requires
+issuing a data processing agreement (DPA) which regulates the processing and further ensures
+that personal data remains protected. Violating GDPR can lead to huge fines reaching to bil-
+lions of Euros. Software systems involving personal data processing must adhere to the legal
+obligations stipulated both at a general level in GDPR as well as the obligations outlined
+in DPAs highlighting specific business. In other words, a DPA is yet another source from
+which requirements engineers can elicit legal requirements. However, the DPA must be com-
+plete according to GDPR to ensure that the elicited requirements cover the complete set of
+obligations. Therefore, checking the completeness of DPAs is a prerequisite step towards
+developing a compliant system. Analyzing DPAs with respect to GDPR entirely manually is
+time consuming and requires adequate legal expertise. In this paper, we propose an automa-
+tion strategy that addresses the completeness checking of DPAs against GDPR provisions
+as a text classification problem. Specifically, we pursue ten alternative solutions which are
+enabled by different technologies, namely traditional machine learning, deep learning, lan-
+guage modeling, and few-shot learning. The goal of our work is to empirically examine how
+these different technologies fare in the legal domain. We computed F2 score on a set of 30
+real DPAs. Our evaluation shows that best-performing solutions yield F2 score of 86.7% and
+89.7% are based on pre-trained BERT and RoBERTa language models. Our analysis further
+shows that other alternative solutions based on deep learning (e.g., BiLSTM) and few-shot
+learning (e.g., SetFit) can achieve comparable accuracy, yet are more efficient to develop."
+39;"Automated requirement contradiction detection
+through formal logic and LLMs";ASE;2024;"This paper introduces ALICE (Automated Logic for Identifying Contradictions in
+Engineering), a novel automated contradiction detection system tailored for formal
+requirements expressed in controlled natural language. By integrating formal logic
+with advanced large language models (LLMs), ALICE represents a significant leap
+forward in identifying and classifying contradictions within requirements docu-
+ments. Our methodology, grounded on an expanded taxonomy of contradictions,
+employs a decision tree model addressing seven critical questions to ascertain the
+presence and type of contradictions. A pivotal achievement of our research is dem-
+onstrated through a comparative study, where ALICE’s performance markedly sur-
+passes that of an LLM-only approach by detecting 60% of all contradictions. ALICE
+achieves a higher accuracy and recall rate, showcasing its eﬃcacy in processing
+real-world, complex requirement datasets. Furthermore, the successful application
+of ALICE to real-world datasets validates its practical applicability and scalability.
+This work not only advances the automated detection of contradictions in formal
+requirements but also sets a precedent for the application of AI in enhancing reason-
+ing systems within product development. We advocate for ALICE’s scalability and
+adaptability, presenting it as a cornerstone for future endeavors in model customiza-
+tion and dataset labeling, thereby contributing a substantial foundation to require-
+ments engineering."
+40;"Using Language Models for Enhancing
+the Completeness of Natural-Language
+Requirements";REFSQ;2024;"[Context and motivation] Incompleteness in natural-
+language requirements is a challenging problem. [Question/problem] A
+common technique for detecting incompleteness in requirements is check-
+ing the requirements against external sources. With the emergence of lan-
+guage models such as BERT, an interesting question is whether language
+models are useful external sources for finding potential incompleteness
+in requirements. [Principal ideas/results] We mask words in require-
+ments and have BERT’s masked language model (MLM) generate con-
+textualized predictions for filling the masked slots. We simulate incom-
+pleteness by withholding content from requirements and measure BERT’s
+ability to predict terminology that is present in the withheld content but
+absent in the content disclosed to BERT. [Contribution] BERT can be
+configured to generate multiple predictions per mask. Our first contribu-
+tion is to determine how many predictions per mask is an optimal trade-
+oﬀ between eﬀectively discovering omissions in requirements and the level
+of noise in the predictions. Our second contribution is devising a machine
+learning-based filter that post-processes predictions made by BERT to fur-
+ther reduce noise. We empirically evaluate our solution over 40 require-
+ments specifications drawn from the PURE dataset [1]. Our results indi-
+cate that: (1) predictions made by BERT are highly eﬀective at pinpointing
+terminology that is missing from requirements, and (2) our filter can sub-
+stantially reduce noise from the predictions, thus making BERT a more
+compelling aid for improving completeness in requirements."
+41;"Establishing Traceability Between
+Natural Language Requirements
+and Software Artifacts by Combining
+RAG and LLMs";Conceptual Modeling;2024;"Software Engineering aims to eﬀectively translate stakehold-
+ers’ requirements into executable code to fulfill their needs. Traceability
+from natural language use case requirements to classes in a UML class
+diagram, subsequently translated into code implementation, is essen-
+tial in systems development and maintenance. Tasks such as assess-
+ing the impact of changes and enhancing software reusability require
+a clear link between these requirements and their software implementa-
+tion. However, establishing such links manually across extensive code-
+bases is prohibitively challenging. Requirements, typically articulated in
+natural language, embody semantics that clarify the purpose of the code-
+base. Conventional traceability methods, relying on textual similarities
+between requirements and code, often suﬀer from low precision due to
+the semantic gap between high-level natural language requirements and
+the syntactic nature of code. The advent of Large Language Models
+(LLMs) provides new methods to address this challenge through their
+advanced capability to interpret both natural language and code syn-
+tax. Furthermore, representing code as a knowledge graph facilitates
+the use of graph structural information to enhance traceability links.
+This paper introduces an LLM-supported retrieval augmented generation
+approach for enhancing requirements traceability to the class diagram
+of the code, incorporating keyword, vector, and graph indexing tech-
+niques, and their integrated application. We present a comparative anal-
+ysis against conventional methods and among diﬀerent indexing strate-
+gies and parameterizations on the performance. Our results demonstrate
+how this methodology significantly improves the eﬃciency and accuracy
+of establishing traceability links in software development processes."
+42;"Goal Model Extraction from User Stories
+Using Large Language Models";QUATIC;2024;"In agile software development, goal modeling is vital for
+understanding the relationships among user stories, commonly used to
+capture stakeholders’ needs. Manual construction of goal models faces
+challenges, such as transforming lower-level user stories into higher-level
+models and capturing implicit goals. This paper presents early research
+proposing a technique using Large Language Models (LLMs), like GPT-
+4, to automatically generate goal models from user stories. The approach
+employs Iterative Prompt Engineering to guide the LLM in extracting
+intentional elements and generating XML representations using the Goal-
+oriented Requirements Language (GRL), visualized with the jUCMNav
+tool. Our primitive qualitative evaluation indicates that GPT-4 can pro-
+duce GRL models that are acceptable and understandable. Despite the
+generic nature of LLM-generated models, there is a potential for their
+use in requirements modeling, particularly in exposing soft goals not
+immediately apparent to stakeholders new to the domain."
+43;"Early Results of an AI Multiagent System
+for Requirements Elicitation and Analysis";PROFES;2024;"In agile software development, user stories capture require-
+ments from the user’s perspective, emphasizing their needs and each
+feature’s value. Writing concise and quality user stories is necessary for
+guiding software development. Alongside user story generation, priori-
+tizing these requirements ensures that the most important features are
+developed first, maximizing project value. This study explores the use of
+Large Language Models (LLMs) to automate the process of user story
+generation, quality assessment, and prioritization. We implemented a
+multi-agent system using Generative Pre-trained Transformers (GPT),
+specifically GPT-3.5 and GPT-4o, to generate and prioritize user sto-
+ries from the initial project description. Our experiments on a real-world
+project demonstrate that GPT-3.5 handled user story generation well,
+achieving a higher semantic similarity score comnpared to the GPT-
+4o. Both models showed consistent performance in prioritizing require-
+ments, eﬀectively identifying the core features of the application. These
+early results indicate that LLMs have significant potential for automat-
+ing requirements analysis, particularly generating and prioritizing user
+stories."
+44;"ARIA-QA: AI-agent based requirements inspection and analysis
+through question answering";ISSE;2024;"Due to their predominant use of natural language, requirements are prone to defects like inconsistency and incompleteness.
+Consequently, quality assurance processes are commonly applied to requirements manually. However, manual execution of
+these processes can be laborious and may inadvertently overlook critical quality issues due to time and budget constraints. This
+paper introduces ARIA, an innovative question–answering (QA) approach designed to automate support for stakeholders,
+including requirements engineers, during the analysis of NL requirements. The ability to ask questions and get immediate
+answers is extremely useful in many quality assurance situations, especially for incompleteness detection. The challenge
+of automating the answering of requirements-related questions is considerable, given the potential scope of the search for
+answers extending beyond the provided requirements specification. To overcome this challenge, ARIA integrates support
+for mining external domain knowledge resources like internet search results. Evaluation of seven diverse use cases drawn
+from the PURE dataset demonstrates ARIA’s robustness and applicability across a range of real-life scenarios, highlighting
+its potential to significantly improve the quality and effectiveness of requirements analysis processes. This work represents
+one of the initial endeavors to seamlessly blend QA and external domain knowledge, effectively addressing complexities in
+requirements engineering through a flexible framework designed to readily integrate with evolving, advanced-level Generative
+LLMs."
+45;"Can Large Language Models (LLMs) Compete
+with Human Requirements
+Reviewers? – Replication of an Inspection
+Experiment on Requirements Documents";PROFES;2024;"The use of large language models (LLMs) for software engineering is
+growing, especially for code - typically to generate code or to detect or fix quality
+problems. Because requirements are often written in natural language, it seems
+promising to exploit the capabilities of LLMs to detect requirement problems. We
+replicated an inspection experiment in which computer science students searched
+for defects in requirements documents using different reading techniques. In our
+replication, we used the LLM GPT-4-Turbo instead of students to determine how
+the model compares to human reviewers. Additionally, we considered GPT-3.5-
+Turbo, Nous-Hermes-2-Mixtral-8x7B-DPO, and Phi-3-medium-128k-instruct for
+one research question. We focus on single prompt approaches and avoid more
+complex approaches to mimic the original study design where students received all
+the material at once. We had two phases. First, we explored the general feasibility
+of using LLMs for requirements inspection on a practice document and examined
+different prompts. Second, we applied selected approaches to two requirements
+documents and compared the approaches to each other and to human reviewers.
+The approaches include variations in reading techniques (ad-hoc, perspective-
+based, checklist-based), LLMs, the instructions, and material provided. We found
+that LLMs (a) report only a limited number of deficits despite having enough
+tokens, which (b) do not vary much across prompts. They (c) rarely match the
+sample solution."
+46;"Towards Taming Large Language Models
+with Prompt Templates for Legal GRL
+Modeling";BPMDS;2024;"The Legal Goal-oriented Requirements Language (Legal
+GRL) is a promising conceptual modeling approach for supporting reg-
+ulatory compliance analysis. Yet, despite early attempts at automation,
+such Legal GRL models are still manually created, being time consum-
+ing and error prone. Recent work has demonstrated how Large Language
+Models can support the creation of conceptual models. Although showing
+promise, the application scenarios for conceptual modeling are often lim-
+ited to well structured, and scoped, scenarios. Dealing with practical, less
+controlled, regulatory analyses, whereby often a particular actor or topic
+needs to be pulled into focus, is an open issue. In this paper, we propose
+using prompt templates to structure the process of using LLMs to create
+a Legal GRL model from text. The core idea is that prompt templates are
+created from state of the art prompt patterns, which can restrict LLM
+output, can manage a LLM conversation context, and can structure a
+LLM conversation. We report on an initial assessment of prompt tem-
+plates on multiple law articles from the healthcare and energy community
+domains. Our initial results are promising for Legal GRL modeling, but
+at the same time show that caution is warranted."
+47;"Could a Large Language Model Contribute
+Significantly to Requirements Analysis?";BPMDS;2024;"This research-in-progress paper presents a quasi-experiment in which
+three different ChatGPT-4 prompts (for system structure, analysis, and recommen-
+dations) are applied in standard or augmented form to the work system in each of
+three case studies (automated warehouses, ride hailing platforms, and medication
+administration systems). The augmented forms (treatments) are based on different
+sets of ideas. Each case study comprises 3000+ words. The prompts are detailed
+requests for responses of up to 500 words related to three steps (system structure,
+analysis, and recommendations) related to those cases. A null treatment serving
+as a quasi-control uses standard prompts for each case without augmentation. The
+first actual treatment is a revision of an analysis template used by MBA and EMBA
+students; the other six are sets of questions based on activity theory, a BPM design
+space, system principles, and three other approaches The research questions are
+whether ChatGPT-4 can produce a useful first cut at system structure, analysis,
+and recommendations and whether various augmentations of ChatGPT-4 prompts
+improve or extend the outputs significantly"
+48;"Generating Specifications from Requirements
+Documents for Smart Devices Using Large
+Language Models (LLMs)";HCII;2024;"The current contribution of artificial intelligence based Large Lan-
+guage Models (LLMs) in supporting the requirements engineering and design
+phase of software centered systems is analyzed. The application domain is focused
+on smart devices and services for Ambient Assisted Living (AAL), e.g. pro-
+grammable smartwatches. In the realm of AAL, programmable smartwatches
+offer significant potential to support elderly users in their daily activities. How-
+ever, developing applications for these devices is resource demanding, algorith-
+mically difficult and requires careful consideration of various factors, including
+user-specific needs (e.g. a diminished natural sensation of thirst) and technical
+constraints (restricted computational power due to limited battery capacity). Our
+approach first utilizes widespread LLMs like ChatGPT, BARD to automatically
+interpret and enrich product concept catalogues, targeting at comprehensive, con-
+sistent and tailored requirements specifications for the specific domain of appli-
+cation. Secondly, we analyze in which extent LLMs today can contribute to the
+original design phase by introducing suitable functional principles and reference
+architectures for fulfilling the services specified as requirements including the
+constraints on its operations. To demonstrate the challenges and perils of this app-
+roach, we will detail the process using the specific use case of automatic drinking
+detection and providing suitable advice for preventing dehydration for elderly
+users. We will discuss and differentiate the principal strength of the approach
+from its actual limitations by the presently available LLMs, which are expected
+to increase and elaborate their generative capabilities rather frequently"
+49;"An empirical study on LLM-based classification
+of requirements-related provisions in food-safety regulations";ESE;2025;"As Industry 4.0 transforms the food industry, the role of software in achieving compliance with
+food-safety regulations is becoming increasingly critical. Food-safety regulations, like those
+in many legal domains, have largely been articulated in a technology-independent manner to
+ensure their longevity and broad applicability. However, this approach leaves a gap between
+the regulations and the modern systems and software increasingly used to implement them. In
+this article, we pursue two main goals. First, we conduct a Grounded Theory study of food-
+safety regulations and develop a conceptual characterization of food-safety concepts that
+closely relate to systems and software requirements. Second, we examine the effectiveness
+of two families of large language models (LLMs) – BERT and GPT – in automatically
+classifying legal provisions based on requirements-related food-safety concepts. Our results
+show that: (a) when fine-tuned, the accuracy differences between the best-performing models
+in the BERT and GPT families are relatively small. Nevertheless, the most powerful model
+in our experiments, GPT-4o, still achieves the highest accuracy, with an average Precision
+of 89% and an average Recall of 87%; (b) few-shot learning with GPT-4o increases Recall
+to 97% but decreases Precision to 65%, suggesting a trade-off between fine-tuning and few-
+shot learning; (c) despite our training examples being drawn exclusively from Canadian
+regulations, LLM-based classification performs consistently well on test provisions from the
+US, indicating a degree of generalizability across regulatory jurisdictions; and (d) for our
+classification task, LLMs significantly outperform simpler baselines constructed using long
+short-term memory (LSTM) networks and automatic keyword extraction."
+50;"PassionNet: An Innovative Framework for
+Duplicate and Conflicting Requirements
+Identification";Arxiv;2024;"Early detection and resolution of duplicate and conflicting requirements
+can significantly enhance project e!ciency and overall software qual-
+ity. Researchers have developed various computational predictors by
+leveraging Artificial Intelligence (AI) potential to detect duplicate and
+conflicting requirements. However, these predictors lack in performance
+and requires more e""ective approaches to empower software development
+processes. Following the need of a unique predictor that can accurately
+identify duplicate and conflicting requirements, this research o""ers a
+comprehensive framework that facilitate development of 3 di""erent types
+of predictive pipelines: language models based, multi-model similarity
+knowledge-driven and large language models (LLMs) context + multi-
+model similarity knowledge-driven. Within first type predictive pipelines
+landscape, framework facilitates conflicting/duplicate requirements iden-
+tification by leveraging 8 distinct types of LLMs. In second type, frame-
+work supports development of predictive pipelines that leverage multi-
+scale and multi-model similarity knowledge, ranging from traditional
+similarity computation methods to advanced similarity vectors gener-
+ated by LLMs. In the third type, the framework synthesizes predictive
+pipelines by integrating contextual insights from LLMs with multi-model
+similarity knowledge. Across 6 public benchmark datasets, extensive
+testing of 760 distinct predictive pipelines including 8 standalone LLM-
+based, 112 similarity knowledge-Driven, and 640 hybrid LLM contextual
+and similarity Knowledge-Driven demonstrates that hybrid predictive
+pipelines consistently outperforms other two types predictive pipelines in
+accurately identifying duplicate and conflicting requirements. This pre-
+dictive pipeline outperformed existing state-of-the-art predictors perfor-
+mance with an overall performance margin of 13% in terms of F1-score."
+51;"LePB-SA4RE: A Lexicon-Enhanced and Prompt-Tuning BERT
+Model for Evolving Requirements Elicitation from App Reviews";MDPI;2025;"Pre-trained language models with fine-tuning (FT) have achieved notable success
+in aspect-based sentiment analysis (ABSA) for automatic requirements elicitation from app
+reviews. However, the fixed parameters during FT progress often face challenges when
+applied to low-resource and noisy app review scenarios. Although prompt-tuning (PT) has
+gained attention in ABSA for its flexibility and adaptability, this improved performance
+can sometimes reduce the generalization and robustness of pre-trained models. To mitigate
+these issues, this study introduces LePB-SA4RE, a novel ABSA model that integrates
+the Bidirectional Encoder Representations from Transformers (BERT) architecture with a
+hard template-based PT method and embeds a lexicon-enhanced dynamic modulation
+layer. Specifically, the activation function of this layer incorporates weights designed
+with sentiment-oriented dynamic parameters to enhance the sensitivity of the model to
+diverse sentiment inputs, and a sentiment lexicon containing three hundred thousand word–
+sentiment polarity pairs is embedded into the model as additional semantic cues to increase
+prediction accuracy. The model retains the stability benefits of Hard-prompt methods while
+increasing the flexibility and adaptability necessary for ABSA in requirements elicitation
+from app reviews. Experimental results indicate that the proposed method surpasses state-
+of-the-art methods on the benchmark datasets, and the generalization of the model achieved
+the highest relative improvements of 72% and 36.6% under low-resource data settings and
+simulated noisy conditions. These promising findings suggest that LePB-SA4RE has the
+potential to provide an effective requirements elicitation solution for user-centric software
+evolution and maintenance."
+52;"Evaluating Generative Language Models with
+Prompt Engineering for Categorizing User Stories
+to its Sector Domains";I2CT;2024;"In Agile software development, user stories capture
+requirements through a concise, user-centric approach. Manual
+categorization of these stories is both labor-intensive and error-
+prone. This study addresses the gap in existing research by
+exploring the application of generative language models, specifi-
+cally GPT-style models, with prompt engineering for user story
+categorization.
+Our research introduces experiments utilizing two genera-
+tive language models, gpt-3.5-turbo and Llama-2-chat-hf, em-
+phasizing innovative prompt engineering. The evaluation of
+gpt-3.5-turbo and Llama-2-chat-hf demonstrates commendable
+performance in zero-shot experiments. Notably, gpt-3.5-turbo
+outperforms in few-shot prompting with a higher F-score of
+67.93%. The gpt-3.5-turbo showcased superior compliance with
+instructions compared to Llama-2-chat-hf. The study underscores
+the promising capability of generative language models, with
+prompt engineering, to automate user story categorization ef-
+fectively.
+This work contributes to the potential of automating user
+story categorization in low-resource settings, showcasing how
+leveraging LLMs can enhance accuracy and streamline the cat-
+egorization process in software development, ultimately leading
+to more efficient outcomes."

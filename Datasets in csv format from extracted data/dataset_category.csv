@@ -1,0 +1,354 @@
+Paper no,Paper name,The adopted data handling techniques,Year,Dataset Category
+1,"
+Using Large Language Models for Natural Language Processing Tasks in Requirements Engineering: A Systematic Guideline
+Andreas Vogelsang +1
+arXiv.org
+2402.13823v3.pdf
+2024 ·
+3 citations","1. Leveraging existing datasets and models that have been used for various RE tasks, as mentioned in the first quote.
+
+2. Fine-tuning pre-trained LLMs on domain-specific data, either through unsupervised fine-tuning on unlabeled RE data or domain-specific data extracted from sources like Wikipedia, as described in the third quote.
+
+3. Supervised fine-tuning on labeled RE datasets to adapt pre-trained LLMs to specific RE tasks, as discussed in the fourth quote.",2024,Open source-data
+2,"The Application of LLMs in the Analysis and Modeling of Software Requirements
+Zhipeng Wang, Changxi Feng, Longfei Liu, Guotao Jiao, Peng Ye
+IEEE International Conference on Software Quality, Reliability and Security Companion
+The_Application_of_LLMs_in_the_Analysis_and_Modeling_of_Software_Requirements.pdf
+2024
+0 citations","1. Feature engineering by selecting more relevant features from the raw data, such as using the main sentences related to the requirement category rather than the full comments.
+2. Tuning the parameters of the SVM classifier model to improve the classification accuracy.
+3. Visualizing the confusion matrix to analyze the prediction errors and identify areas for improvement.",2024,Open source-data
+3,"Investigating ChatGPT's Potential to Assist in Requirements Elicitation Processes
+Krishna Ronanki, Christian Berger, Jennifer Horkoff
+Investigating_ChatGPTs_Potential_to_Assist_in_Requirements_Elicitation_Processes.pdf
+Citations unknown",Interview based surveys,2023,Constructed Dataset
+4,"Leveraging Graph-RAG and Prompt Engineering to Enhance LLM-Based Automated Requirement Traceability and Compliance Checks
+Arsalan Masoudifard, Mohammad Mowlavi, Moein Madadi, Mohammad Sabokrou, Elahe Habibi
+2412.08593v1.pdf
+2024
+0 citations","The adopted data handling techniques in the paper are: text cleaning, extracting a glossary of domain-specific terms, and chunking documents into manageable text chunks.",2024,Open source-data
+5,"Interlinking User Stories and GUI Prototyping: A Semi-Automatic LLM-based Approach
+Kristian Kolthoff, Felix Kretzer, Christian Bartelt, Alexander Maedche, Simone Paolo Ponzetto
+IEEE International Requirements Engineering Conference
+Interlinking_User_Stories_and_GUI_Prototyping_A_Semi-Automatic_LLM-Based_Approach.pdf
+2024
+2 citations","1. Collecting user stories for existing GUI prototypes from the Rico dataset, as no dataset combining GUIs and user stories was available.
+2. Selecting a sample of 60 GUIs from the Rico dataset, applying various exclusion criteria to ensure the GUIs were suitable for the study.
+3. Collecting user stories from participants, providing instructions and examples, and having them create user stories for the selected GUIs.
+4. Preprocessing the collected user stories, including labeling them for quality, resolving disagreements, and excluding low-quality or duplicate user stories to create the final dataset of 231 user stories.",2024,Open source-data
+6,"Generating Requirements Elicitation Interview Scripts with Large Language Models
+Binnur Görer, Fatma Bas, ¸ak Aydemir
+2023 IEEE 31st International Requirements Engineering Conference Workshops (REW)
+Generating_Requirements_Elicitation_Interview_Scripts_with_Large_Language_Models.pdf
+2023
+10 citations","1. This paper explores automatically generating interview scripts with large language models through prompt engineering.
+2. Prompt engineering techniques to generate business domain descriptions, linear scripts, and conversation pieces focused on certain types of mistakes.
+3.  Two strategies, batch generation and iterative generation, to generate interview scripts with LLMs were employed. ",2023,Constructed Dataset
+7,"Prioritizing Software Requirements Using Large Language Models
+Malik Abdul Sami, Zeeshan Rasheed, Muhammad Waseem, Zheying Zhang, Tomas Herda, Pekka Abrahamsson
+arXiv.org
+2405.01564v1.pdf
+2024
+4 citations",Not mentioned (the paper does not mention the specific data handling techniques used in the research),2024,Collected dataset
+8,"Which AI Technique Is Better to Classify Requirements? An Experiment with SVM, LSTM, and ChatGPT
+Abdelkarim El-Hajjami, Nicolas Fa, Camille Salinesi, D Mendez, A Moreira, J Horko, T Weyer, M Daneva, M Unterkalmsteiner, S Bühne, J Hehn, B Penzenstadler, N Condori- Fernández, O Dieste, R Guizzardi, K M Habibullah, A Perini, A Susi, S Abualhaija, C Arora, D Dell', A Ferrari, S Ghanavati, F Dalpiaz, J Steghöfer, A Rachmann, J Gulden, A Müller, M Beck, D Birkmeier, A Herrmann, P Mennig, K Schneider
+REFSQ Workshops
+2311.11547v2.pdf
+2023
+1 citation","Not mentioned (the paper does not provide detailed information about the specific data handling techniques used in the study, such as data cleaning, normalization, or feature engineering)",2023,Collected dataset
+9,"Extracting Domain Models from Textual Requirements in the Era of Large Language Models
+Sathurshan Arulmohan, Marie-Jean Meurs, Sébastien Mosser
+2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)
+Extracting_Domain_Models_from_Textual_Requirements_in_the_Era_of_Large_Language_Models.pdf
+2023
+10 citations","1. Manually annotating a dataset of 1,679 user stories from 22 product backlogs to create a ground truth for evaluating the performance of different approaches to extracting domain models from textual requirements.
+2. Ensuring the quality of the manual annotation through cross-checks, including an initial calibration, bi-weekly validation meetings, and cross-checking a sample of 330 annotated stories (19.6%) by a third author, which resulted in an inter-rater agreement of 94%.",2023,Constructed Dataset
+10,"GPT-Powered Elicitation Interview Script Generator for Requirements Engineering Training
+Binnur Görer, Fatma Bas, ¸ak Aydemir
+IEEE International Requirements Engineering Conference
+GPT-Powered_Elicitation_Interview_Script_Generator_for_Requirements_Engineering_Training.pdf
+2024
+0 citations",Not mentioned (the paper does not mention any specific data handling techniques used in the research),2024,Collected dataset
+11,"Zero-shot Learning for Named Entity Recognition in Software Specification Documents
+Souvick Das, Novarun Deb, Agostino Cortesi, Nabendu Chaki
+IEEE International Requirements Engineering Conference
+Zero-shot_Learning_for_Named_Entity_Recognition_in_Software_Specification_Documents.pdf
+2023
+2 citations",Not mentioned (the paper does not mention the specific data handling techniques used in this research),2023,Collected dataset
+12,"Using LLMs in Software Requirements Specifications: An Empirical Evaluation
+Madhava Krishna, Bhagesh Gaur, Arsh Verma, Pankaj Jalote
+IEEE International Requirements Engineering Conference
+Using_LLMs_in_Software_Requirements_Specifications_An_Empirical_Evaluation.pdf
+2024
+2 citations",Not mentioned (the paper does not mention any information about data handling techniques used in this study),2024,Collected dataset
+13,"Requirements-driven Slicing of Simulink Models Using LLMs
+Dipeeka Luitel, Shiva Nejati, Mehrdad Sabetzadeh
+2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)
+Requirements-Driven_Slicing_of_Simulink_Models_using_LLMs.pdf
+2024
+2 citations",Not mentioned (the paper does not mention any information about data handling techniques used in this study),2024,Collected dataset
+14,"Improving requirements completeness: automated assistance through large language models
+Dipeeka Luitel, Shabnam Hassani, Mehrdad Sabetzadeh
+Requirements Engineering
+s00766-024-00416-3.pdf
+2023
+16 citations","1. The authors used the PURE dataset, which contains 79 publicly available requirements documents. 2. They manually cleaned up the documents in the PURE dataset by removing extraneous content like table of contents and headers. 3. They selected 40 of the cleaned documents as a compromise between cleanup effort and dataset size. 4. They partitioned the 40 documents into two subsets, P1 and P2, with P1 used for RQ1-RQ3 and P2 used for RQ4. The partitioning was done to ensure domain representation and balance between the two subsets.",2023,Open source-data
+15,"Advancing Requirements Engineering Through Generative AI: Assessing the Role of LLMs
+Chetan Arora, John Grundy, Mohamed Abdelrazek
+arXiv.org
+978-3-031-55642-5_6.pdf
+2023
+41 citations",Not mentioned (the paper does not mention any details about the adopted data handling techniques for re-related datasets used in this research),2023,Collected dataset
+16,"Requirements Modeling Aided by ChatGPT: An Experience in Embedded Systems
+Kun Ruan, Xiaohong Chen, Zhi Jin
+2023 IEEE 31st International Requirements Engineering Conference Workshops (REW)
+Requirements_Modeling_Aided_by_ChatGPT_An_Experience_in_Embedded_Systems.pdf
+2023
+4 citations",Not mentioned (the paper does not mention any information about the data handling techniques used in this research),2023,Collected dataset
+17,"Empirical Evaluation of ChatGPT on Requirements Information Retrieval Under Zero-Shot Setting
+Jianzhang Zhang, Yiyang Chen, Nan Niu, Yinglin Wang, | Chuang Liu
+2023 International Conference on Intelligent Computing and Next Generation Networks（ICNGN)
+2304.12562v2.pdf
+2023
+16 citations",1) Selecting appropriate test datasets from previous NLP4RE studies 2) Choosing datasets covering different requirements artifact types and languages 3) Using only the test sets of the selected datasets to evaluate ChatGPT 4) Constructing prompts to query ChatGPT on the selected datasets,2023,Open source-data
+18,"An Automated Model of Software Requirement Engineering Using GPT-3.5
+Jie Sh'ng Yeow, Muhammad Ehsan Rana, Amira Abdul Majid
+2024 ASU International Conference in Emerging Technologies for Sustainability and Intelligent Systems (ICETSIS)
+An_Automated_Model_of_Software_Requirement_Engineering_Using_GPT-3.5.pdf
+2024
+1 citation",Not mentioned (the paper does not mention the specific data handling techniques used in this research),2024,Collected dataset
+19,"Exploring Requirements Elicitation from App Store User Reviews Using Large Language Models
+Tanmai Kumar Ghosh, Atharva Pargaonkar, Nasir U Eisty
+arXiv.org
+2409.15473v1.pdf
+2024
+0 citations","1. Text normalization to ensure consistency in capitalization 2. Data cleaning to remove special characters, HTML tags, and URLs 3. Tokenization to segment the review text into individual words 4. Stop word removal to eliminate common words with minimal semantic meaning",2024,Open source-data
+20,"Large Language Models for Software Engineering: A Systematic Literature Review
+Xinyi Hou, Yanjie Zhao, Yue Liu, Zhou Yang, Kailong Wang, Xiapu Luo, David Lo, John Grundy, Haoyu Wang, Li Li
+ACM Transactions on Software Engineering and Methodology
+published version of blueprint paper.pdf
+2023
+215 citations","1. Data collection: The data sources are categorized into four types - open-source datasets, collected datasets, constructed datasets, and industrial datasets. 2. Data types: The data types used in the studies are classified into five categories - code-based, text-based, graph-based, software repository-based, and combined data types. 3. Data pre-processing: The paper provides detailed descriptions of the data pre-processing steps for text-based and code-based datasets, including data extraction, cleaning, normalization, and tokenization.",2023,Industrial Dataset
+21,"SimAC: simulating agile collaboration to generate acceptance criteria in user story elaboration
+Yishu Li, Jacky Keung, Zhen Yang, Xiaoxue Ma, Jingyu Zhang, Shuo Liu
+International Conference on Automated Software Engineering
+s10515-024-00448-7.pdf
+2024
+2 citations",Not mentioned (the paper does not mention any details about data handling techniques used in the study),2024,Collected dataset
+22,"Generative Language Models Potential for Requirement Engineering Applications: Insights into Current Strengths and Limitations
+Summra Saleem, Muhammad Nabeel Asim, Ludger Van Elst, Andreas Dengel
+arXiv.org
+2412.00959v1.pdf
+2024
+0 citations","1. For the aerospace dataset, the authors preprocessed the data by removing non-textual elements, fixing sentence boundaries, and replacing special symbols to focus solely on the textual data.
+
+2. The authors used the BIO tagging scheme to annotate the aerospace dataset, defining 5 main entity categories based on their frequency in the corpus.
+
+3. For the REQuestA dataset, a mix of manually defined and automatically generated question-answer pairs were included, with 214 pairs manually defined by experts and 173 pairs automatically generated.",2024,Collected dataset
+23,"ARCHCODE: Incorporating Software Requirements in Code Generation with Large Language Models
+Hojae Han, et.al
+Annual Meeting of the Association for Computational Linguistics
+2408.00994v1.pdf
+2024
+0 citations",Not mentioned (the paper does not mention any details about data handling techniques used in the research),2024,Collected dataset
+24,"Rethinking Legal Compliance Automation: Opportunities with Large Language Models
+Shabnam Hassani, Mehrdad Sabetzadeh, Daniel Amyot, Jain Liao
+IEEE International Requirements Engineering Conference
+Rethinking_Legal_Compliance_Automation_Opportunities_with_Large_Language_Models.pdf
+2024
+3 citations","Not mentioned (the paper does not mention anything about ""the adopted data handling techniques"" in the context of re related datasets collected, pre-processed, and utilized in llms)",2024,Collected dataset
+25,"Agile Methodology for the Standardization of Engineering Requirements Using Large Language Models
+Archana Tikaya Ra, Bjorn F Cole, Olivia J Pinon Fischer, Anirudh Prabhakara Bhat, Ryan T White, Dimitri N Mavris
+Syst.
+systems-11-00352.pdf
+2023
+13 citations","1. The dataset consisted of 310  requirements, categorized into design, functional, and performance requirements, obtained from Parts 23 and 25 of Title 14 of the Code of Federal Regulations (CFRs).
+2. The authors used this publicly available dataset to develop a methodology for converting natural language requirements into machine-readable formats, which can be applied to proprietary requirements as well.",2023,Open source-data
+26,"MUCE: a multilingual use case model extractor using GPT-3
+Deepali Bajaj, Anita Goel, S C Gupta, Hunar Batra
+International journal of information technology
+s41870-022-00884-2.pdf
+2022
+12 citations","For the dataset, we have curated a corpus consisting of 50 software case studies collected from Software Engineering projects undertaken at the Department of Computer Science, Shaheed Rajguru College of Applied Sciences of Women1 . We translated some case studies written in English to French and Spanish before parsing them into the model. Due to the context window size limitation of GPT-3 (nctx = 2048), out of 50 hand-picked case studies, 12 studies along with their respective use-cases/actors were selected for tuning the GPT-3 Davinci engine with Few-Shot learning.",2022,Constructed Dataset
+27,"PRCBERT: Prompt Learning for Requirement Classification using BERT-based Pretrained Language Models
+Xianchang Luo, Yinxing Xue, Zhenchang Xing
+International Conference on Automated Software Engineering
+3551349.3560417.pdf
+2022
+36 citations","1. Collected a large-scale dataset of real-world software requirements from social networking sites and app reviews, specifically the Stack Overflow platform.
+2. Utilized the collected NFR-SO dataset for zero-shot learning and self-learning to improve performance on unseen requirements.",2022,Collected dataset
+28,"Toward Regulatory Compliance: A few-shot Learning Approach to Extract Processing Activities
+Rambod Ghandiparsi, Rocky Slavin, Sepideh Ghanavati, Travis Breaux, Mitra Bokaei Hosseini
+2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)
+Toward_Regulatory_Compliance_A_few-shot_Learning_Approach_to_Extract_Processing_Activities.pdf
+2024
+0 citations","
+
+We investigate how LLMs can extract summaries of processing activities from scenarios automatically. We explore the effects of the number of training examples in few-shot learning, repetition, and ordering of the examples on LLMs performance for extractive summarization. From the 50 scenarios in the corpus, we identify sentences that contain goal, step, or DP action verbs, yielding three datasets containing 64, 83, and 253 sentences, respectively. We partition each dataset into training, validation, and testing sets using a ratio of 60:20:20. Using the training, validation, and testing sets for all three datasets (i.e., goal, step, and DP), we design two experiments to address the following research questions. ",2024,Collected dataset
+29,"Model Generation with LLMs: From Requirements to UML Sequence Diagrams
+Alessio Ferrari, Sallam Abualhaija, Chetan Arora
+2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)
+Model_Generation_with_LLMs_From_Requirements_to_UML_Sequence_Diagrams.pdf
+2024
+1 citation","Not mentioned (the paper does not mention any specific ""data handling techniques"" used in the study)",2024,Collected dataset
+30,"Can AI Help with the Formalization of Railway Cybersecurity Requirements?
+Maurice H Ter Beek, Alessandro Fantechi, Stefania Gnesi, Gabriele Lenzini, Marinella Petrocchi
+Leveraging Applications of Formal Methods
+Colloquium_Rocco_De_Nicola_2024.pdf
+2024
+0 citations",Not mentioned (the paper does not mention any specific data handling techniques used in the research),2024,Collected dataset
+31,"Towards the LLM-Based Generation of Formal
+Specifications from Natural-Language Contracts:
+Early Experiments with S YMBOLEO","The provided contexts do not contain specific information regarding the collection, pre-processing, and utilization of RE related datasets in LLMs. Therefore, an answer cannot be generated based on the available information.",2024,Collected dataset
+32,"Chapter 11: Legal Requirements Analysis: A
+Regulatory Compliance Perspective","The provided contexts do not contain specific information regarding the adopted data handling techniques related to the collection, pre-processing, and utilization of RE related datasets in LLMs. Therefore, an answer cannot be generated based on the available contexts.",2023,Collected dataset
+33,"Using LLMs for Use Case Modelling of IoT Systems:
+An Experience Report","The contexts provided do not contain specific information regarding the collection, pre-processing, and utilization of RE related datasets in LLMs.",2024,Collected dataset
+34,"The Current Challenges of Software Engineering in the Era of
+Large Language Models","Data collection involves gathering publicly available source code data from platforms like GitHub and public archives, ensuring a diverse and extensive dataset for training LLMs.
+Data filtering is crucial to remove low-quality or malicious data, employing various rules such as eliminating overly long code lines and auto-generated files.",2024,Open source-data
+35,"A novel automated framework for fine-grained sentiment analysis of application reviews using deep neural networks
+Haochen Zou, Yongli Wang
+International Conference on Automated Software Engineering
+·
+2024
+·
+3 citations",Not mentioned (the paper does not provide details on the data handling techniques used in this research),2024,Collected dataset
+36,"PassionNet: An Innovative Framework for Duplicate and Conflicting Requirements Identification
+Summra Saleem, Muhammad Nabeel Asim, Andreas Dengel
+arXiv.org
+·
+2024
+·
+0 citations","1. Evaluating the PassionNet framework on 6 publicly available benchmark datasets, including 2 duplicate requirements datasets and 4 conflicting requirements datasets.
+2. Providing statistics about the datasets, such as total number of samples, class distribution, vocabulary size, and requirement lengths.
+3. Using Optuna to perform an extensive hyperparameter search to identify the optimal hyperparameters for the ML classifiers and LLM predictive pipelines.",2024,Open source-data
+37,"Refactoring goal-oriented models: a linguistic improvement using large language models
+Nouf Alturayeif, Jameleddine Hassine, B Jameleddine Hassine
+Journal of Software and Systems Modeling
+·
+2025
+·
+0 citations",Not mentioned (this paper does not mention anything about the adopted data handling techniques for re-related datasets used in llms),2025,Collected dataset
+38,"An empirical study on LLM-based classification of requirements-related provisions in food-safety regulations
+Shabnam Hassani, Mehrdad Sabetzadeh, Daniel Amyot, Walid Maalej, B Mehrdad Sabetzadeh
+Empirical Software Engineering
+·
+2025
+·
+1 citation","Sentence splitting using SpaCy
+ Experimenting with various BERT and GPT models, fine-tuning them using Optuna, OpenAI API, and other libraries
+ Implementing BiLSTM and keyword-based baselines
+ Using PyTorch, Keras, and GloVe for the baseline models",2025,Open source-data
+39,"A Multi-solution Study on GDPR AI-enabled Completeness Checking of DPAs
+Muhammad Ilyas Azeem, Sallam Abualhaija, Daniel Méndez
+Empirical Software Engineering
+·
+2023
+·
+5 citations","1. Manual annotation of 169 DPAs by 3 legal experts, who labeled 12% of the 31,185 sentences as satisfying GDPR provisions.
+2. Splitting the dataset, with 70% used for training the solutions and 30% used for evaluation.",2023,Collected dataset
+40,"Automated requirement contradiction detection through formal logic and LLMs
+Alexander Elenga Gärtner, Dietmar Göhlich
+International Conference on Automated Software Engineering
+·
+2024
+·
+2 citations","1. Compiling a custom dataset (Dataset 1) specifically for developing and testing the proposed method.
+2. Obtaining real-world datasets (Datasets 2 and 3) from an industrial electric bus system development project.
+3. Anonymizing the real-world datasets to address confidentiality concerns before making them available.
+4. Acknowledging the inherent imbalance in the datasets, where the majority of requirements do not contradict each other, as a characteristic of authentic real-world datasets.",2024,Industrial Dataset
+41,"LePB-SA4RE: A Lexicon-Enhanced and Prompt-Tuning BERT Model for Evolving Requirements Elicitation from App Reviews
+Luis Javier, Garcia Villalba, Zhiquan An, Hongyan Wan, Teng Xiong, Bangchao Wang
+Applied Sciences
+·
+2025
+·
+0 citations","1. Minimal preprocessing, focusing on removing non-alphabetic characters and consolidating redundant spaces to preserve the semantic integrity of the original text.
+2. Using the BERT-base-uncased model, which is case-insensitive, and leveraging the built-in WordPiece tokenizer to maintain lexical processing consistency and maximize model performance.
+3. Avoiding additional preprocessing techniques like stemming or external word embeddings, as the primary objective of the BERT model is to understand word meanings in context, and such techniques may have negative impacts on the model's performance.",2025,Collected dataset
+42,"NL2CTL: Automatic Generation of Formal Requirements Specifications via Large Language Models
+Mengyan Zhao, Ran Tao, Yanhong Huang, Jianqi Shi, Shengchao Qin, Yang Yang
+IEEE International Conference on Formal Engineering Methods
+·
+2024
+·
+0 citations","1. Using pre-trained LLMs, specifically GPT-3.5, to assist in creating the dataset for fine-tuning the T5-Large model.
+2. Generating a dataset of 3,000 NL-CTL pairs using a random generation algorithm and prompt engineering with GPT-3.5.
+3. Using a ""lifted"" version of the NL and CTL data, where all atomic propositions were hidden, to enhance the generality of the dataset.",2024,Constructed Dataset
+43,"Establishing Traceability Between Natural Language Requirements and Software Artifacts by Combining RAG and LLMs
+Syed Juned Ali, Varun Naganathan, Dominik Bork
+International Conference on Conceptual Modeling
+·
+2024
+·
+1 citation","1. LLM-based code summary generation to address the lack of informative docstrings in the code
+2. Creation of a keyword index for the code documents, including preprocessing steps like stemming and stopword removal
+3. Creation of a vector index using a multilingual embedding model to handle the multilingual nature of the dataset
+4. Creation of a knowledge graph index based on the function dependency graph of the codebase, capturing the structural relationships between classes and methods",2024,Collected dataset
+44,"Using Language Models for Enhancing the Completeness of Natural-Language Requirements
+Dipeeka Luitel, Shabnam Hassani, Mehrdad Sabetzadeh, S Luitel, Hassani
+Requirements Engineering: Foundation for Software Quality
+·
+2023
+·
+10 citations","We have implemented our approach in Python. The NLP pipeline is implemented using SpaCy 3.2.2. For extracting word embeddings, we use GloVe [13].
+
+To obtain masked language model predictions from BERT, we use the Transformers 4.16.2 library by Hugging Face (https://huggingface.co/) and operated in PyTorch 1.10.2+cu113. Our ML-based filters are implemented in WEKA 3-8-5 [23]. To implement the ML features listed in Table 1 , we use standard implementations of cosine similarity (over word embeddings) and Levenshtein distance [24]. The TFIDF-based features in this table (F12-13) use TfidfVectorizer from scikit-learn 1.0.2. Our implementation and evaluation artifacts are publicly available [8].
+Our evaluation is based on 40 documents from the PURE dataset [1] -a collection of public-domain requirements specifications. Many of the documents in PURE require manual cleanup (e.g., removal of table of contents, headers, section markers, etc.) We found 40 to be a good compromise between the effort that we needed to spend on cleanup and having a dataset large enough for statistical significance testing, mitigating the effects of random variation, and training ML-based filters. ",2023,Open source-data
+45,"ARIA-QA: AI-agent based requirements inspection and analysis through question answering
+Chitrak Biswas, Souvick Das
+Innovations in Systems and Software Engineering
+·
+2024
+·
+0 citations",Not mentioned (the paper does not provide any information about the specific data handling techniques used in the research),2024,Collected dataset
+46,"Goal Model Extraction from User Stories Using Large Language Models
+Vaishali Siddeshwar, Sanaa Alwidian, Masoud Makrehchi
+Quality of Information and Communications Technology
+·
+2024
+·
+0 citations",Not mentioned (the paper does not provide details on the specific data handling techniques used in this research),2024,Collected dataset
+47,"Can Large Language Models (LLMs) Compete with Human Requirements Reviewers? -Replication of an Inspection Experiment on Requirements Documents
+Daniel Seifert, Lisa Jöckel, Adam Trendowicz, Marcus Ciolkowski, Thorsten Honroth, Andreas Jedlitschka
+International Conference on Product Focused Software Process Improvement
+·
+2024
+·
+0 citations",Not mentioned (the paper does not mention any specific data handling techniques used in the study),2024,Collected dataset
+48,"Towards Taming Large Language Models with Prompt Templates for Legal GRL Modeling
+Sybren De Kinderen, Karolin Winter
+BPMDS/EMMSAD@CAiSE
+·
+2024
+·
+1 citation","The experiments are performed on two different datasets for which we establish a baseline against which to judge the LLM experiment results. The baseline comprises, both, the Legal GRL model, but also the intermediate Hohfeldian analysis. ",2024,Collected dataset
+49,"Evaluating Generative Language Models with Prompt Engineering for Categorizing User Stories to its Sector Domains
+Batool Alawaji, Mona Hakami, Bader Alshemaimri
+2024 IEEE 9th International Conference for Convergence in Technology (I2CT)
+·
+2024
+·
+1 citation","1. The dataset used was the publicly available smart home requirements dataset collected as part of Crowd-RE research, consisting of 2,966 crowd-generated user stories. 2. The user stories in the dataset were preprocessed by concatenating the role, feature, and benefit components of each story into a complete user story. 3. This complete user story was then passed to the LLMs for categorization experiments.",2024,Open source-data
+50,"Generating Specifications from Requirements Documents for Smart Devices Using Large Language Models (LLMs)
+Rainer Lutze, Klemens Waldhör
+Interacción
+·
+2024
+·
+2 citations",Not mentioned (the paper does not mention the specific data handling techniques used by the llms in this study),2024,Collected dataset
+51,"Early Results of an AI Multiagent System for Requirements Elicitation and Analysis
+Malik Abdul Sami, Muhammad Waseem, Zheying Zhang, Zeeshan Rasheed, Kari Systä, Pekka Abrahamsson
+International Conference on Product Focused Software Process Improvement
+·
+2024
+·
+1 citation",Not mentioned (the paper does not provide details on the specific data handling techniques used in the study),2024,Collected dataset
+52,"Could a Large Language Model Contribute Significantly to Requirements Analysis?
+Steven Alter
+BPMDS/EMMSAD@CAiSE
+·
+2024
+·
+1 citation",Not mentioned (the paper does not mention any specific data handling techniques used in the research),2024,Collected dataset

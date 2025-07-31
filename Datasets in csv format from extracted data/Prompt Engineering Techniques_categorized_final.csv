@@ -1,0 +1,377 @@
+Paper no,Paper name,The optimization and assessment strategies,Year,Techniques Found
+1,"
+Using Large Language Models for Natural Language Processing Tasks in Requirements Engineering: A Systematic Guideline
+Andreas Vogelsang +1
+arXiv.org
+2402.13823v3.pdf
+2024 ·
+3 citations","1. Selecting the appropriate LLM architecture (encoder-only, decoder-only, or encoder-decoder) based on whether the RE task is an understanding task or a generating task, as guided by the decision tree in Figure 1.
+
+2. Fine-tuning the selected LLM architecture to balance the model's general language understanding with the domain-specific needs of RE, through a ""meticulous calibration"" process.",2024,Contextual cues and knowledge augmentation
+2,"The Application of LLMs in the Analysis and Modeling of Software Requirements
+Zhipeng Wang, Changxi Feng, Longfei Liu, Guotao Jiao, Peng Ye
+IEEE International Conference on Software Quality, Reliability and Security Companion
+The_Application_of_LLMs_in_the_Analysis_and_Modeling_of_Software_Requirements.pdf
+2024
+0 citations","1) Providing the full review text as a prompt to the LLM, in addition to just the sentence, to help the model better understand the intent and priority of the requirements, thereby improving the quality of the analysis.
+2) Using Jaccard similarity as the evaluation metric to quantify the accuracy of the LLM's requirements analysis results compared to pre-defined standard answers, with ""good"" answers defined as having a similarity coefficient of 0.8 or higher.
+3) Evaluating the LLM-based requirements analysis method across different domains (gaming, productivity tools, social networks) and showing that it achieved high accuracy, with 89% of the answers being ""good"" or ""average"".",2024,Retrieval Augmented Generation (RAG)
+3,"Investigating ChatGPT's Potential to Assist in Requirements Elicitation Processes
+Krishna Ronanki, Christian Berger, Jennifer Horkoff
+Investigating_ChatGPTs_Potential_to_Assist_in_Requirements_Elicitation_Processes.pdf
+Citations unknown","Not mentioned (the paper does not discuss any ""optimization and assessment strategies"" for using llms like chatgpt for requirements engineering (re) tasks)",2023,Others
+4,"Leveraging Graph-RAG and Prompt Engineering to Enhance LLM-Based Automated Requirement Traceability and Compliance Checks
+Arsalan Masoudifard, Mohammad Mowlavi, Moein Madadi, Mohammad Sabokrou, Elahe Habibi
+2412.08593v1.pdf
+2024
+0 citations","1. Constructing a knowledge graph using Graph-RAG to enhance the retrieval of relevant information from external sources.
+2. Employing advanced prompting techniques, such as Chain of Thought (CoT) and Tree of Thought (ToT), to improve the reasoning capabilities of the LLMs in detecting requirement violations.
+3. Testing the framework on two different datasets representing regulated environments (online broker application and NASA's X-38 system) to evaluate its performance in diverse contexts.",2024,"Chain of Thought (CoT), Tree of Thought (ToT), Retrieval Augmented Generation (RAG), Contextual cues and knowledge augmentation"
+5,"Interlinking User Stories and GUI Prototyping: A Semi-Automatic LLM-based Approach
+Kristian Kolthoff, Felix Kretzer, Christian Bartelt, Alexander Maedche, Simone Paolo Ponzetto
+IEEE International Requirements Engineering Conference
+Interlinking_User_Stories_and_GUI_Prototyping_A_Semi-Automatic_LLM-Based_Approach.pdf
+2024
+2 citations","1. Zero-Shot (ZS) prompting: Creating a prompting template with task instructions, the user story to validate, and the GUI abstraction.
+
+2. Few-Shot (FS) prompting: Following the ZS pattern but also providing several input-output pairs to guide the model.
+
+3. Chain-of-Thought (COT) prompting: Instructing the LLM to generate multiple intermediate reasoning steps before making a prediction, providing an interpretable explanation.
+
+4. Creating a dataset by collecting user stories for existing GUI prototypes from the Rico dataset, as no dataset combining GUI prototypes and user stories was available.",2024,"Chain of Thought (CoT), Tree of Thought (ToT), Few-shot prompting, Zero-shot prompting"
+6,"Generating Requirements Elicitation Interview Scripts with Large Language Models
+Binnur Görer, Fatma Bas, ¸ak Aydemir
+2023 IEEE 31st International Requirements Engineering Conference Workshops (REW)
+Generating_Requirements_Elicitation_Interview_Scripts_with_Large_Language_Models.pdf
+2023
+10 citations","The paper does not explicitly discuss ""optimization and assessment strategies"" for using LLMs for Requirements Engineering (RE) tasks. However, it describes the prompt engineering techniques used to generate interview scripts with LLMs, as well as the evaluation plan for assessing the quality of the generated scripts. The key techniques used are batch generation and iterative generation of interview scripts, and the evaluation plan involves both qualitative assessment by domain experts and quantitative comparison to baseline expert-generated scripts.",2023,Others
+7,"Prioritizing Software Requirements Using Large Language Models
+Malik Abdul Sami, Zeeshan Rasheed, Muhammad Waseem, Zheying Zhang, Tomas Herda, Pekka Abrahamsson
+arXiv.org
+2405.01564v1.pdf
+2024
+4 citations","1. Developing a tool that can capture requirements and generate user stories using LLMs.
+2. Implementing prioritization logic to evaluate and prioritize user stories based on business value, urgency, and technical complexity.
+3. Integrating the tool with popular project management platforms to enhance the agile process and stakeholder coordination.
+4. Analyzing the tool's outputs, including performance analysis, content analysis generated by LLMs, and stakeholder satisfaction through qualitative analysis.",2024,Others
+8,"Which AI Technique Is Better to Classify Requirements? An Experiment with SVM, LSTM, and ChatGPT
+Abdelkarim El-Hajjami, Nicolas Fa, Camille Salinesi, D Mendez, A Moreira, J Horko, T Weyer, M Daneva, M Unterkalmsteiner, S Bühne, J Hehn, B Penzenstadler, N Condori- Fernández, O Dieste, R Guizzardi, K M Habibullah, A Perini, A Susi, S Abualhaija, C Arora, D Dell', A Ferrari, S Ghanavati, F Dalpiaz, J Steghöfer, A Rachmann, J Gulden, A Müller, M Beck, D Birkmeier, A Herrmann, P Mennig, K Schneider
+REFSQ Workshops
+2311.11547v2.pdf
+2023
+1 citation","1. Using an SVM-based classification approach with 500 word-level features, trained on 75% of the PROMISE dataset and evaluated on a global evaluation dataset.
+2. Using an LSTM model with an embedding layer, spatial dropout layer, LSTM layer, and dense layer to output probability scores.
+3. Employing zero-shot prompting and few-shot prompting strategies to guide the ChatGPT models in the requirements classification task.",2023,"Few-shot prompting, Zero-shot prompting"
+9,"Extracting Domain Models from Textual Requirements in the Era of Large Language Models
+Sathurshan Arulmohan, Marie-Jean Meurs, Sébastien Mosser
+2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)
+Extracting_Domain_Models_from_Textual_Requirements_in_the_Era_of_Large_Language_Models.pdf
+2023
+10 citations","1) Prompt engineering to constrain the LLM's responses using a dedicated schema, and
+2) Comparison to a dedicated NLP approach using Conditional Random Fields (CRF) developed with NLP experts.",2023,Contextual cues and knowledge augmentation
+10,"GPT-Powered Elicitation Interview Script Generator for Requirements Engineering Training
+Binnur Görer, Fatma Bas, ¸ak Aydemir
+IEEE International Requirements Engineering Conference
+GPT-Powered_Elicitation_Interview_Script_Generator_for_Requirements_Engineering_Training.pdf
+2024
+0 citations","1. Prompt chaining: The authors employed a prompt chaining approach to overcome the output length constraints of GPT and generate more comprehensive and detailed interview scripts.
+
+2. Automated evaluation: The authors used the GRUEN metric, which evaluates the generated text on criteria like grammaticality, non-redundancy, focus, and coherence, to assess the language quality of the interview scripts.
+
+3. Expert judgment study: The authors conducted an expert judgment study, where an experienced requirements engineering expert evaluated the generated scripts on dimensions like natural language quality, coherence, and completeness.",2024,Prompt templates and role-based prompts
+11,"Zero-shot Learning for Named Entity Recognition in Software Specification Documents
+Souvick Das, Novarun Deb, Agostino Cortesi, Nabendu Chaki
+IEEE International Requirements Engineering Conference
+Zero-shot_Learning_for_Named_Entity_Recognition_in_Software_Specification_Documents.pdf
+2023
+2 citations","Not mentioned (the paper does not mention any ""optimization and assessment strategies"" for large language models in the context of requirements engineering tasks)",2023,Others
+12,"Using LLMs in Software Requirements Specifications: An Empirical Evaluation
+Madhava Krishna, Bhagesh Gaur, Arsh Verma, Pankaj Jalote
+IEEE International Requirements Engineering Conference
+Using_LLMs_in_Software_Requirements_Specifications_An_Empirical_Evaluation.pdf
+2024
+2 citations","1. Establishing a human-generated SRS document as a benchmark to evaluate the LLMs against. 2. Experimenting with different prompting strategies, including iterative prompting and a single comprehensive prompt, and finding that a single comprehensive prompt with detailed context provided the best results. 3. Using the GPT-4 model (ChatGPT) and providing both prompt and context to the model, as they observed that this approach led to more detailed generated documents. 4. Using the CodeLlama-34b model as an alternative to GPT-4, as it had robust performance, and using it with the Text Generation WebUI to provide a ChatGPT-like experience.",2024,"Prompt templates and role-based prompts, Contextual cues and knowledge augmentation"
+13,"Requirements-driven Slicing of Simulink Models Using LLMs
+Dipeeka Luitel, Shiva Nejati, Mehrdad Sabetzadeh
+2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)
+Requirements-Driven_Slicing_of_Simulink_Models_using_LLMs.pdf
+2024
+2 citations","1. Textual representation of the Simulink model at a medium-level of verbosity, which retains the syntax and semantics of the Simulink blocks while omitting visual rendering information. 2. Chain-of-thought and zero-shot prompting strategies, which produce the largest number of accurate model slices.",2024,"Chain of Thought (CoT), Zero-shot prompting"
+14,"Improving requirements completeness: automated assistance through large language models
+Dipeeka Luitel, Shabnam Hassani, Mehrdad Sabetzadeh
+Requirements Engineering
+s00766-024-00416-3.pdf
+2023
+16 citations",1. Undersampling the non-relevant class in the training data for the machine learning classifier to reduce false negatives 2. Using cost-sensitive learning to assign a higher penalty to false negatives (relevant terms classified as non-relevant) compared to false positives 3. Evaluating the importance of the features used in the machine learning classifier using information gain to identify the most discriminative features,2023,Contextual cues and knowledge augmentation
+15,"Advancing Requirements Engineering Through Generative AI: Assessing the Role of LLMs
+Chetan Arora, John Grundy, Mohamed Abdelrazek
+arXiv.org
+978-3-031-55642-5_6.pdf
+2023
+41 citations","1. Prompt engineering: Designing and testing prompts to improve the performance of LLMs and get the desired output quality. 2. Assessing the limitations of LLMs, such as their tendency to produce inaccuracies or biases, and their limited context length, when using them in RE tasks. 3. Fine-tuning LLMs with domain-specific data or incorporating domain experts' knowledge to address the limited domain understanding of LLMs.",2023,Contextual cues and knowledge augmentation
+16,"Requirements Modeling Aided by ChatGPT: An Experience in Embedded Systems
+Kun Ruan, Xiaohong Chen, Zhi Jin
+2023 IEEE 31st International Requirements Engineering Conference Workshops (REW)
+Requirements_Modeling_Aided_by_ChatGPT_An_Experience_in_Embedded_Systems.pdf
+2023
+4 citations",Not mentioned (the paper does not discuss any techniques used to optimize or evaluate llms like chatgpt for requirements engineering tasks),2023,Others
+17,"Empirical Evaluation of ChatGPT on Requirements Information Retrieval Under Zero-Shot Setting
+Jianzhang Zhang, Yiyang Chen, Nan Niu, Yinglin Wang, | Chuang Liu
+2023 International Conference on Intelligent Computing and Next Generation Networks（ICNGN)
+2304.12562v2.pdf
+2023
+16 citations","1. Evaluating ChatGPT on four requirements benchmark datasets covering two RE tasks (classification and extraction) and two artifact types (specialized and general) in a zero-shot setting. 2. Using the zero-shot setting to provide a lower bound on the performance of ChatGPT on the RE tasks. 3. Automating the querying process by calling the OpenAI API, where each instance is provided to ChatGPT in a single API call with a prompt to ensure a zero-shot setting. 4. Adopting the commonly used performance measures of precision, recall, and F-measure to evaluate the performance of ChatGPT.",2023,Zero-shot prompting
+18,"An Automated Model of Software Requirement Engineering Using GPT-3.5
+Jie Sh'ng Yeow, Muhammad Ehsan Rana, Amira Abdul Majid
+2024 ASU International Conference in Emerging Technologies for Sustainability and Intelligent Systems (ICETSIS)
+An_Automated_Model_of_Software_Requirement_Engineering_Using_GPT-3.5.pdf
+2024
+1 citation","1. Quantitative evaluation of the generated survey and interview questions in terms of reliability, clarity, relevance, and completeness. 2. Readability analysis using the Flesch Reading Ease Score and Flesch-Kincaid Grade Level to assess the complexity and ease of reading the generated text. 3. Evaluation of the clarity, relevance, and completeness of the generated questions to understand GPT-3.5's capabilities in generating natural language that effectively communicates the intended message.",2024,Others
+19,"Exploring Requirements Elicitation from App Store User Reviews Using Large Language Models
+Tanmai Kumar Ghosh, Atharva Pargaonkar, Nasir U Eisty
+arXiv.org
+2409.15473v1.pdf
+2024
+0 citations","1. Using a 70/30 split of the dataset for training and testing the models 2. Employing tokenizers specifically designed for each LLM to ensure compatibility with the model architecture 3. Tuning hyperparameters such as learning rate, batch size, and number of epochs during the fine-tuning process 4. Evaluating the LLMs using a diverse set of metrics including accuracy, precision, recall, and F1-score",2024,Others
+20,"Large Language Models for Software Engineering: A Systematic Literature Review
+Xinyi Hou, Yanjie Zhao, Yue Liu, Zhou Yang, Kailong Wang, Xiapu Luo, David Lo, John Grundy, Haoyu Wang, Li Li
+ACM Transactions on Software Engineering and Methodology
+published version of blueprint paper.pdf
+2023
+215 citations","1. Data pre-processing: The paper describes a 7-step data pre-processing procedure for text-based datasets and a 7-step procedure for code-based datasets. This includes steps like data extraction, data cleaning, deduplication, tokenization, and partitioning into training/validation/test sets.  2. Data representation: The paper identifies four main input formats used for LLMs in SE tasks: token-based, tree/graph-based, pixel-based, and hybrid-based. The choice of input format can impact the LLM's performance on different SE tasks.  3. Evaluation metrics: The paper discusses common evaluation metrics used for different types of SE tasks, including regression, classification, recommendation, and generation tasks.",2023,Others
+21,"SimAC: simulating agile collaboration to generate acceptance criteria in user story elaboration
+Yishu Li, Jacky Keung, Zhen Yang, Xiaoxue Ma, Jingyu Zhang, Shuo Liu
+International Conference on Automated Software Engineering
+s10515-024-00448-7.pdf
+2024
+2 citations","1. K-shot prompting: Examining the impact of the number of examples (K) provided in the prompts to guide the LLM in the GAC task.
+
+2. Similarity threshold tuning: Exploring the impact of different similarity threshold settings in the deduplication phase to optimize the generated acceptance criteria.
+
+3. Human evaluation: Using a gold standard created by practitioners and the INVEST framework to evaluate the quality, completeness, and validity of the auto-generated acceptance criteria against human-crafted ones.",2024,Others
+22,"Generative Language Models Potential for Requirement Engineering Applications: Insights into Current Strengths and Limitations
+Summra Saleem, Muhammad Nabeel Asim, Ludger Van Elst, Andreas Dengel
+arXiv.org
+2412.00959v1.pdf
+2024
+0 citations","1) Using three different levels of expert knowledge prompts (low, medium, and high) to feed into the generative language models (ChatGPT and Gemini) for the four requirement engineering tasks.
+2) Evaluating the performance of the GLMs using standard metrics like accuracy, precision, recall, F1-score, ROUGE, BLEU, and METEOR scores.",2024,Contextual cues and knowledge augmentation
+23,"ARCHCODE: Incorporating Software Requirements in Code Generation with Large Language Models
+Hojae Han, et.al
+Annual Meeting of the Association for Computational Linguistics
+2408.00994v1.pdf
+2024
+0 citations","1) In-context learning to leverage LLMs' reasoning abilities and adapt to the task without costly parameter updates
+2) Generating requirements, code, and test cases where each test case is tailored to a specific requirement, allowing for ranking code snippets based on compliance with requirements
+3) Evaluating LLMs on public benchmarks for functional requirements and introducing a new benchmark, HumanEval-NFR, to assess performance on non-functional requirements",2024,Retrieval Augmented Generation (RAG)
+24,"Rethinking Legal Compliance Automation: Opportunities with Large Language Models
+Shabnam Hassani, Mehrdad Sabetzadeh, Daniel Amyot, Jain Liao
+IEEE International Requirements Engineering Conference
+Rethinking_Legal_Compliance_Automation_Opportunities_with_Large_Language_Models.pdf
+2024
+3 citations",Not mentioned (the paper does not provide details on the specific optimization and assessment strategies used for the llms in the context of requirements engineering tasks),2024,Others
+25,"Agile Methodology for the Standardization of Engineering Requirements Using Large Language Models
+Archana Tikaya Ra, Bjorn F Cole, Olivia J Pinon Fischer, Anirudh Prabhakara Bhat, Ryan T White, Dimitri N Mavris
+Syst.
+systems-11-00352.pdf
+2023
+13 citations",Not mentioned (the paper does not discuss any specific techniques used to optimize or assess the llms for requirements engineering tasks),2023,Others
+26,"MUCE: a multilingual use case model extractor using GPT-3
+Deepali Bajaj, Anita Goel, S C Gupta, Hunar Batra
+International journal of information technology
+s41870-022-00884-2.pdf
+2022
+12 citations","Not mentioned (the paper does not discuss any specific ""optimization and assessment strategies"" for using gpt-3 or other llms for requirements engineering tasks)",2022,Others
+27,"PRCBERT: Prompt Learning for Requirement Classification using BERT-based Pretrained Language Models
+Xianchang Luo, Yinxing Xue, Zhenchang Xing
+International Conference on Automated Software Engineering
+3551349.3560417.pdf
+2022
+36 citations","1. Flexible prompt templates to improve classification accuracy compared to standard prompt templates
+2. Zero-shot learning combined with self-learning to preserve transferability and generality of the pre-trained model
+3. Combining self-learning with prompt-based classification to automate labeling of large-scale unseen requirement samples",2022,"Zero-shot prompting, Prompt templates and role-based prompts"
+28,"Toward Regulatory Compliance: A few-shot Learning Approach to Extract Processing Activities
+Rambod Ghandiparsi, Rocky Slavin, Sepideh Ghanavati, Travis Breaux, Mitra Bokaei Hosseini
+2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)
+Toward_Regulatory_Compliance_A_few-shot_Learning_Approach_to_Extract_Processing_Activities.pdf
+2024
+0 citations","1. Evaluating the impact of the number of examples in few-shot learning prompts on the performance of the LLM for extractive summarization.
+2. Assessing the consistency of the LLM's results across repeated experiments.
+3. Investigating the sensitivity of the LLM's performance to the order of examples in the few-shot learning prompts.
+4. Conducting a manual qualitative evaluation to further understand the strengths and limitations of the LLM-generated summaries.",2024,Few-shot prompting
+29,"Model Generation with LLMs: From Requirements to UML Sequence Diagrams
+Alessio Ferrari, Sallam Abualhaija, Chetan Arora
+2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)
+Model_Generation_with_LLMs_From_Requirements_to_UML_Sequence_Diagrams.pdf
+2024
+1 citation",Not mentioned (the paper does not discuss any specific techniques for optimizing or assessing llms for re tasks),2024,Others
+30,"Can AI Help with the Formalization of Railway Cybersecurity Requirements?
+Maurice H Ter Beek, Alessandro Fantechi, Stefania Gnesi, Gabriele Lenzini, Marinella Petrocchi
+Leveraging Applications of Formal Methods
+Colloquium_Rocco_De_Nicola_2024.pdf
+2024
+0 citations","Not mentioned (the paper does not discuss any specific ""optimization and assessment strategies"" for using llms in requirements engineering tasks)",2024,Others
+31,"Towards the LLM-Based Generation of Formal
+Specifications from Natural-Language Contracts:
+Early Experiments with S YMBOLEO","The optimization strategy involves prompt engineering, which guides Large Language Models (LLMs) in generating outputs that reflect the required format and structure for SYMBOLEO specifications. This includes combinations of prompt components such as grammar explanations, examples, and emotional prompts.
+
+The assessment strategy includes establishing a set of evaluation metrics to assess the quality of generated SYMBOLEO specifications. Each error type is assigned a weight based on its impact on the specification's integrity, with errors classified into high-impact, medium-impact, and low-impact categories",2024,Others
+32,"Chapter 11: Legal Requirements Analysis: A
+Regulatory Compliance Perspective","The evaluation of compliance verification solutions involves assessing how well an approach detects genuine breaches in a document, with true positives (TPs) representing correctly detected breaches, false positives (FPs) representing incorrectly detected breaches, and false negatives (FNs) representing missed breaches.
+
+The optimization of thresholds for semantic similarity can be adjusted according to the application context to improve compliance checking outcomes.",2023,Others
+33,"Using LLMs for Use Case Modelling of IoT Systems:
+An Experience Report","The optimization strategies for using LLMs in requirements engineering involve enhancing training with more domain-specific knowledge and examples to better prepare models for the complexities of IoT systems.
+The assessment strategies include a benchmarking study that quantitatively evaluates the suitability of LLMs by applying them to generate standard and extended use case models, alongside qualitative human examination of the generated use cases.",2024,Contextual cues and knowledge augmentation
+34,"The Current Challenges of Software Engineering in the Era of
+Large Language Models","The optimization strategies for LLMs in software engineering involve enhancing their ability to integrate dispersed contextual information and improving their understanding of complex inter-service dependencies.
+
+The assessment strategies include establishing frameworks that replicate real-world development settings to allow for thorough and precise measurement of the models' practicality. ",2024,Contextual cues and knowledge augmentation
+35,"A novel automated framework for fine-grained sentiment analysis of application reviews using deep neural networks
+Haochen Zou, Yongli Wang
+International Conference on Automated Software Engineering
+·
+2024
+·
+3 citations","1. The proposed model was evaluated on standard benchmark datasets for fine-grained aspect-based sentiment analysis in the software engineering domain.
+2. The evaluation metrics used were accuracy and macro F1 score, which are common metrics for text classification tasks.
+3. The model was trained and validated over multiple epochs to assess its efficiency and accuracy during the training process.",2024,Others
+36,"PassionNet: An Innovative Framework for Duplicate and Conflicting Requirements Identification
+Summra Saleem, Muhammad Nabeel Asim, Andreas Dengel
+arXiv.org
+·
+2024
+·
+0 citations","1) Evaluating three distinct types of predictive pipelines that integrate LLMs and similarity knowledge in different ways.
+2) Using Optuna to optimize the hyperparameters of the ML classifiers and LLM predictive pipelines across an extensive search space.
+3) Extracting representations from the LLMs using the [CLS] token, and then reducing the dimensionality of these representations using PCA to create more compact and informative embeddings.",2024,Contextual cues and knowledge augmentation
+37,"Refactoring goal-oriented models: a linguistic improvement using large language models
+Nouf Alturayeif, Jameleddine Hassine, B Jameleddine Hassine
+Journal of Software and Systems Modeling
+·
+2025
+·
+0 citations","1. Proposing LLM-based techniques to automatically refactor 9 types of linguistic bad smells in goal models.
+2. Delegating the refactoring of similar, mismatching, and conflicting elements to the user due to their subjective nature.
+3. Evaluating the refactoring approach and tool by having 13 participants assess the correctness of the refactoring of 71 linguistic bad smells in 4 TGRL models, and finding that the participants perceived the refactored sentences as highly correct.",2025,Others
+38,"An empirical study on LLM-based classification of requirements-related provisions in food-safety regulations
+Shabnam Hassani, Mehrdad Sabetzadeh, Daniel Amyot, Walid Maalej, B Mehrdad Sabetzadeh
+Empirical Software Engineering
+·
+2025
+·
+1 citation","1. Comparing the LLM-based models to simpler baseline models (BiLSTM and keyword extraction).
+2. Using the Wilcoxon Rank-Sum Test to statistically compare the accuracy (Precision and Recall) of different models.
+3. Calculating the Vargha-Delaney Â12 effect size to assess the practical significance of the differences between models.",2025,Others
+39,"A Multi-solution Study on GDPR AI-enabled Completeness Checking of DPAs
+Muhammad Ilyas Azeem, Sallam Abualhaija, Daniel Méndez
+Empirical Software Engineering
+·
+2023
+·
+5 citations","1. Fine-tuning the LLM-based solutions to maximize the F2 score, which balances precision and recall with a greater emphasis on recall.
+2. Evaluating the performance of the solutions using standard classification metrics like accuracy, precision, and recall, which are computed based on true positives, false positives, false negatives, and true negatives.",2023,Others
+40,"Automated requirement contradiction detection through formal logic and LLMs
+Alexander Elenga Gärtner, Dietmar Göhlich
+International Conference on Automated Software Engineering
+·
+2024
+·
+2 citations","Our current research introduces ALICE (Automated Logic for Identifying Contradictions in Engineering). This system synergizes the capabilities of formal logic with large language models (LLMs) to automatically detect and resolve contradictions between two requirements.
+We compared the results of ALICE to the results when using only LLMs. We conducted an evaluation solely focused on detecting the presence of contradictions without classifying the specific type of contradiction: While ALICE demonstrated the capability to identify specific types of contradictions, LLMs are not equipped with this classification awareness. ",2024,Others
+41,"LePB-SA4RE: A Lexicon-Enhanced and Prompt-Tuning BERT Model for Evolving Requirements Elicitation from App Reviews
+Luis Javier, Garcia Villalba, Zhiquan An, Hongyan Wan, Teng Xiong, Bangchao Wang
+Applied Sciences
+·
+2025
+·
+0 citations","1. Bayesian optimization to tune the parameters of the dynamic activation function in the modulation layer
+2. Calculating standard deviation and confidence intervals to assess the statistical significance and reliability of the experimental results",2025,Others
+42,"NL2CTL: Automatic Generation of Formal Requirements Specifications via Large Language Models
+Mengyan Zhao, Ran Tao, Yanhong Huang, Jianqi Shi, Shengchao Qin, Yang Yang
+IEEE International Conference on Formal Engineering Methods
+·
+2024
+·
+0 citations","1. Generating an NL-CTL dataset using a random generation algorithm and prompt engineering with LLMs to address the lack of available data.
+2. Fine-tuning the T5-Large model using the generated NL-CTL dataset to enhance its generative capacity.
+3. Using the GPT-3.5 Atomic Proposition (AP) Recognition method to improve the generalization of the model across different domains.
+4. Experimentally evaluating the fine-tuned LLM and the prompted LLM, and finding that the fine-tuned LLM achieved significantly higher accuracy (46.4%) compared to the prompted LLM (2%), demonstrating the feasibility of the proposed approach.",2024,Others
+43,"Establishing Traceability Between Natural Language Requirements and Software Artifacts by Combining RAG and LLMs
+Syed Juned Ali, Varun Naganathan, Dominik Bork
+International Conference on Conceptual Modeling
+·
+2024
+·
+1 citation","1. A Retrieval Augmented Generation (RAG)-based approach to improve requirements traceability by bridging the gap between high-level requirements and source code.
+2. Evaluation of the impact of different parameters that influence the quality of the RAG index, as this is a key factor in the performance of the LLM-based approach.
+3. Comparative analysis of the RAG-based approach against conventional methods, as well as different indexing strategies and parameterizations.",2024,Retrieval Augmented Generation (RAG)
+44,"Using Language Models for Enhancing the Completeness of Natural-Language Requirements
+Dipeeka Luitel, Shabnam Hassani, Mehrdad Sabetzadeh, S Luitel, Hassani
+Requirements Engineering: Foundation for Software Quality
+·
+2023
+·
+10 citations","1. Filtering out BERT predictions that are already present in the disclosed part of the requirements specification, in order to reduce noise.
+2. Applying a machine learning-based filter to further reduce noise and strike a better balance between useful and non-useful predictions.
+3. Making the implementation and evaluation artifacts publicly available to facilitate replication and further research.",2023,Others
+45,"ARIA-QA: AI-agent based requirements inspection and analysis through question answering
+Chitrak Biswas, Souvick Das
+Innovations in Systems and Software Engineering
+·
+2024
+·
+0 citations","Throughout this process, we employ the RAGAS framework [7] to evaluate the effectiveness of the RAG mechanism implemented within our framework. Leveraging state-ofthe-art LLMs, such as OpenAI's GPT-4 [22] or Anthropic's Claude [3], as evaluative judges have been studied by Zheng et al. [35]. The framework scrutinizes the quality of RAG components by incorporating LLM as a judge for the ground truth creation. 
+Table 2 presents the evaluation results of the RAG pipeline utilized in the framework. We experimented with three LLMs: i) LLaMA-2, ii) Mixtral 8x7B, and iii) ChatGPT.",2024,Retrieval Augmented Generation (RAG)
+46,"Goal Model Extraction from User Stories Using Large Language Models
+Vaishali Siddeshwar, Sanaa Alwidian, Masoud Makrehchi
+Quality of Information and Communications Technology
+·
+2024
+·
+0 citations","Our technique introduces a novel approach to generate goal models from LLMs, unlike typical single-prompt method. It employs a seven-step iterative prompting strategy combined with few-shot learning. Inspired by chain-of-thought prompting, this technique breaks down complex problems into manageable steps, enhancing the LLM's ability to tackle a complex task effectively [13]. 
+To evaluate, ten GRL models were randomly selected from the literature, where these models are well-validated. The data adopted from the literature included GRL models and snippets of requirements in natural language which the authors transformed them into the format of user stories. The user stories, their sources, and their goal models are available (See footnote 1). This aids a swift evaluation of the methodology without involving human experts.
+
+Two assessments were carried out in order to address the second research question. The first assessment examines the syntactic distinctions between the ground-truth GRL models and the generated outputs, whereas, the second evaluates the semantic similarities between the models.",2024,"Chain of Thought (CoT), Few-shot prompting, Prompt templates and role-based prompts"
+47,"Can Large Language Models (LLMs) Compete with Human Requirements Reviewers? -Replication of an Inspection Experiment on Requirements Documents
+Daniel Seifert, Lisa Jöckel, Adam Trendowicz, Marcus Ciolkowski, Thorsten Honroth, Andreas Jedlitschka
+International Conference on Product Focused Software Process Improvement
+·
+2024
+·
+0 citations","The paper describes the study design and methodology used to evaluate the performance of LLMs in detecting defects in requirements documents, which can be considered an assessment strategy. This includes examining different prompting strategies, comparing the performance of different LLMs, and comparing the LLMs' defect detection performance to that of human reviewers.",2024,Others
+48,"Towards Taming Large Language Models with Prompt Templates for Legal GRL Modeling
+Sybren De Kinderen, Karolin Winter
+BPMDS/EMMSAD@CAiSE
+·
+2024
+·
+1 citation","1. Using prompt templates to structure the prompts and manage the LLM's output, including the Template Pattern, Persona Pattern, and Context Manager Pattern. 2. Manually evaluating the LLM's outputs to determine precision and recall, which requires determining what constitutes a correctly retrieved document. 3. Adopting a cautious and iterative approach, breaking down the overall task into smaller steps and allowing for human intervention and correction of intermediate results.",2024,Prompt templates and role-based prompts
+49,"Evaluating Generative Language Models with Prompt Engineering for Categorizing User Stories to its Sector Domains
+Batool Alawaji, Mona Hakami, Bader Alshemaimri
+2024 IEEE 9th International Conference for Convergence in Technology (I2CT)
+·
+2024
+·
+1 citation","Precision, recall, and F1 score to assess the quality of the sector classification for user stories obtained by the generative language models - Zero-shot and few-shot prompting techniques to evaluate the performance of the gpt-3.5-turbo and Llama-2-chat-hf models",2024,"Few-shot prompting, Zero-shot prompting"
+50,"Generating Specifications from Requirements Documents for Smart Devices Using Large Language Models (LLMs)
+Rainer Lutze, Klemens Waldhör
+Interacción
+·
+2024
+·
+2 citations",Not mentioned (the paper does not discuss any specific optimization or assessment strategies for using llms for requirements engineering tasks),2024,Others
+51,"Early Results of an AI Multiagent System for Requirements Elicitation and Analysis
+Malik Abdul Sami, Muhammad Waseem, Zheying Zhang, Zeeshan Rasheed, Kari Systä, Pekka Abrahamsson
+International Conference on Product Focused Software Process Improvement
+·
+2024
+·
+1 citation","Not mentioned (the paper does not discuss any specific ""optimization and assessment strategies"" for using llms for requirements engineering tasks)",2024,Others
+52,"Could a Large Language Model Contribute Significantly to Requirements Analysis?
+Steven Alter
+BPMDS/EMMSAD@CAiSE
+·
+2024
+·
+1 citation","1) Applying structured prompts to ChatGPT-4 to generate initial responses 2) Exploring approaches to refine and consolidate those initial responses, such as: - Consolidating to a single response - Producing longer consolidated responses - Identifying unique ideas from the different treatments",2024,Prompt templates and role-based prompts
